@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Linq;
 
 namespace Katas.Session._01;
 
@@ -13,7 +14,15 @@ public static class VowelsKata
     /// <exception cref="NotImplementedException"></exception>
     public static int CountVowels(string input)
     {
-        throw new NotImplementedException();
+        char[] vowels = ['a', 'e', 'i', 'o', 'u'];
+        int count = 0;
+
+        foreach (char letter in input.ToCharArray())
+        {
+            if (vowels.Contains(letter)) count++;
+        }
+
+        return count;
     }
 }
 

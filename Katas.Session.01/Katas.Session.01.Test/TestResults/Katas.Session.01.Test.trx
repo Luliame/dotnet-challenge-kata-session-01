@@ -1,670 +1,489 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<TestRun id="d5653273-204b-44e2-93db-e6aa27086976" name="jcreach@RNSPTP059P 2024-09-24 13:14:54" runUser="APSDIGIT\jcreach" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
-  <Times creation="2024-09-24T13:14:54.4805892+02:00" queuing="2024-09-24T13:14:54.4805898+02:00" start="2024-09-24T13:14:53.4422585+02:00" finish="2024-09-24T13:14:54.9133232+02:00" />
-  <TestSettings name="default" id="c67fbedb-7a22-4674-b03e-79b4bee872b6">
-    <Deployment runDeploymentRoot="jcreach_RNSPTP059P_2024-09-24_13_14_54" />
+<TestRun id="0d0715c8-b6ac-4ac5-8a46-cf557a16c1e5" name="gvalentin@CLRPTP32P 2024-11-28 09:42:11" runUser="APSDIGIT\gvalentin" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <Times creation="2024-11-28T09:42:11.3893923+01:00" queuing="2024-11-28T09:42:11.3893924+01:00" start="2024-11-28T09:42:10.8641541+01:00" finish="2024-11-28T09:42:11.4891582+01:00" />
+  <TestSettings name="default" id="f6fd26ae-f519-437a-9e31-0adcf2843a98">
+    <Deployment runDeploymentRoot="gvalentin_CLRPTP32P_2024-11-28_09_42_11" />
   </TestSettings>
   <Results>
-    <UnitTestResult executionId="565aeeec-d9e6-4c4c-86b0-01b467f82dab" testId="3d8dec6a-7eee-d6d7-1499-746332efeb14" testName="ComputeMinMaxTest(&quot;43 20 31 -45 93&quot;,&quot;93 -45&quot;)" computerName="RNSPTP059P" duration="00:00:00.0002220" startTime="2024-09-24T13:14:54.2915298+02:00" endTime="2024-09-24T13:14:54.2917518+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="565aeeec-d9e6-4c4c-86b0-01b467f82dab">
+    <UnitTestResult executionId="ce9bfae2-21cf-429c-9347-4b6f00912dd8" testId="6d5f6542-de52-3c25-65b1-c5d75cf46226" testName="TestCase(&quot;chandail&quot;,3)" computerName="CLRPTP32P" duration="00:00:00.0000850" startTime="2024-11-28T09:42:11.3468872+01:00" endTime="2024-11-28T09:42:11.3469722+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="ce9bfae2-21cf-429c-9347-4b6f00912dd8">
       <Output>
         <ErrorInfo>
           <Message>System.NotImplementedException : The method or operation is not implemented.</Message>
-          <StackTrace>   at Katas.Session._01.MinMaxKata.ComputeMinMax(String input) in C:\01-projects\apside\git\dotnet-challenge-kata-session-01\katas.session.01\Katas.Session.01\MinMaxKata.cs:line 21&#xD;
-   at Katas.Session._01.Test.MinMaxKataTest.ComputeMinMaxTest(String input, String expected) in C:\01-projects\apside\git\dotnet-challenge-kata-session-01\katas.session.01\katas.session.01.test\MinMaxKataTest.cs:line 20&#xD;
-   at InvokeStub_MinMaxKataTest.ComputeMinMaxTest(Object, Span`1)&#xD;
-   at System.Reflection.MethodBaseInvoker.InvokeWithFewArgs(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
-</StackTrace>
-        </ErrorInfo>
-      </Output>
-    </UnitTestResult>
-    <UnitTestResult executionId="40c81efe-2c78-4f70-a109-46859f23294b" testId="2c2d8b84-3f86-eb0e-1d49-87b351117c76" testName="ComputeMinMaxTest(&quot;92 8 70 30 12&quot;,&quot;92 8&quot;)" computerName="RNSPTP059P" duration="00:00:00.0002080" startTime="2024-09-24T13:14:54.2919945+02:00" endTime="2024-09-24T13:14:54.2922019+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="40c81efe-2c78-4f70-a109-46859f23294b">
-      <Output>
-        <ErrorInfo>
-          <Message>System.NotImplementedException : The method or operation is not implemented.</Message>
-          <StackTrace>   at Katas.Session._01.MinMaxKata.ComputeMinMax(String input) in C:\01-projects\apside\git\dotnet-challenge-kata-session-01\katas.session.01\Katas.Session.01\MinMaxKata.cs:line 21&#xD;
-   at Katas.Session._01.Test.MinMaxKataTest.ComputeMinMaxTest(String input, String expected) in C:\01-projects\apside\git\dotnet-challenge-kata-session-01\katas.session.01\katas.session.01.test\MinMaxKataTest.cs:line 20&#xD;
-   at InvokeStub_MinMaxKataTest.ComputeMinMaxTest(Object, Span`1)&#xD;
-   at System.Reflection.MethodBaseInvoker.InvokeWithFewArgs(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
-</StackTrace>
-        </ErrorInfo>
-      </Output>
-    </UnitTestResult>
-    <UnitTestResult executionId="898171d3-cc35-4a91-8257-0bf52409d90a" testId="3b358dac-a42d-0b47-7a51-d3cc4c3a3b0d" testName="SumMultiplesBelow(2,0)" computerName="RNSPTP059P" duration="00:00:00.0005689" startTime="2024-09-24T13:14:54.2946774+02:00" endTime="2024-09-24T13:14:54.2952456+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="898171d3-cc35-4a91-8257-0bf52409d90a">
-      <Output>
-        <ErrorInfo>
-          <Message>System.NotImplementedException : The method or operation is not implemented.</Message>
-          <StackTrace>   at Katas.Session._01.MultipleKata.SumMultiplesBelow(Int32 input) in C:\01-projects\apside\git\dotnet-challenge-kata-session-01\katas.session.01\Katas.Session.01\MultipleKata.cs:line 21&#xD;
-   at Katas.Session._01.Test.MultipleKataTest.SumMultiplesBelow(Int32 input, Int32 expected) in C:\01-projects\apside\git\dotnet-challenge-kata-session-01\katas.session.01\katas.session.01.test\MultipleKataTest.cs:line 23&#xD;
-   at InvokeStub_MultipleKataTest.SumMultiplesBelow(Object, Span`1)&#xD;
-   at System.Reflection.MethodBaseInvoker.InvokeWithFewArgs(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
-</StackTrace>
-        </ErrorInfo>
-      </Output>
-    </UnitTestResult>
-    <UnitTestResult executionId="909dae5a-40bc-41c8-90e5-f3984ff8b51b" testId="47def0c6-3498-ef1e-0e9a-d4c16878107d" testName="ReverseWordTest(&quot;L'hymne de nos campagnes&quot;,&quot;campagnes nos de L'hymne&quot;)" computerName="RNSPTP059P" duration="00:00:00.0003790" startTime="2024-09-24T13:14:54.2985229+02:00" endTime="2024-09-24T13:14:54.2989017+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="909dae5a-40bc-41c8-90e5-f3984ff8b51b">
-      <Output>
-        <ErrorInfo>
-          <Message>System.NotImplementedException : The method or operation is not implemented.</Message>
-          <StackTrace>   at Katas.Session._01.ReverseStringKata.ReverseWords(String input) in C:\01-projects\apside\git\dotnet-challenge-kata-session-01\katas.session.01\Katas.Session.01\ReverseStringKata.cs:line 19&#xD;
-   at Katas.Session._01.Test.ReverseStringKataTest.ReverseWordTest(String input, String expected) in C:\01-projects\apside\git\dotnet-challenge-kata-session-01\katas.session.01\katas.session.01.test\ReverseStringKataTest.cs:line 21&#xD;
-   at InvokeStub_ReverseStringKataTest.ReverseWordTest(Object, Span`1)&#xD;
-   at System.Reflection.MethodBaseInvoker.InvokeWithFewArgs(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
-</StackTrace>
-        </ErrorInfo>
-      </Output>
-    </UnitTestResult>
-    <UnitTestResult executionId="8699de67-fcbf-401e-b61c-b03bcd25b20c" testId="227cfdb0-700a-4835-7719-513f0523ef66" testName="TestCase(&quot;clignotement&quot;,4)" computerName="RNSPTP059P" duration="00:00:00.0008260" startTime="2024-09-24T13:14:54.3000168+02:00" endTime="2024-09-24T13:14:54.3008430+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="8699de67-fcbf-401e-b61c-b03bcd25b20c">
-      <Output>
-        <ErrorInfo>
-          <Message>System.NotImplementedException : The method or operation is not implemented.</Message>
-          <StackTrace>   at Katas.Session._01.VowelsKata.CountVowels(String input) in C:\01-projects\apside\git\dotnet-challenge-kata-session-01\katas.session.01\Katas.Session.01\VowelsKata.cs:line 20&#xD;
-   at Katas.Session._01.Test.VowelsKataTest.TestCase(String input, Int32 expected) in C:\01-projects\apside\git\dotnet-challenge-kata-session-01\katas.session.01\katas.session.01.test\VowelsKataTest.cs:line 20&#xD;
+          <StackTrace>   at Katas.Session._01.VowelsKata.CountVowels(String input) in C:\Users\gvalentin\Documents\pers\tech\dotnet-challenge-kata-session-01\katas.session.01\Katas.Session.01\VowelsKata.cs:line 16&#xD;
+   at Katas.Session._01.Test.VowelsKataTest.TestCase(String input, Int32 expected) in C:\Users\gvalentin\Documents\pers\tech\dotnet-challenge-kata-session-01\katas.session.01\katas.session.01.test\VowelsKataTest.cs:line 14&#xD;
    at InvokeStub_VowelsKataTest.TestCase(Object, Span`1)&#xD;
    at System.Reflection.MethodBaseInvoker.InvokeWithFewArgs(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
 </StackTrace>
         </ErrorInfo>
       </Output>
     </UnitTestResult>
-    <UnitTestResult executionId="fa172a3b-8691-4405-b6a2-8116b2fa942a" testId="e1258a44-2af4-f288-2335-cf3ebc46dab6" testName="ReverseWordTest(&quot;I am an expert at this&quot;,&quot;this at expert an am I&quot;)" computerName="RNSPTP059P" duration="00:00:00.0002580" startTime="2024-09-24T13:14:54.2974964+02:00" endTime="2024-09-24T13:14:54.2977547+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="fa172a3b-8691-4405-b6a2-8116b2fa942a">
+    <UnitTestResult executionId="f9c662f5-86b4-4cbf-b98d-168d4e812cd4" testId="e1258a44-2af4-f288-2335-cf3ebc46dab6" testName="ReverseWordTest(&quot;I am an expert at this&quot;,&quot;this at expert an am I&quot;)" computerName="CLRPTP32P" duration="00:00:00.0000710" startTime="2024-11-28T09:42:11.3460806+01:00" endTime="2024-11-28T09:42:11.3461520+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="f9c662f5-86b4-4cbf-b98d-168d4e812cd4">
       <Output>
         <ErrorInfo>
           <Message>System.NotImplementedException : The method or operation is not implemented.</Message>
-          <StackTrace>   at Katas.Session._01.ReverseStringKata.ReverseWords(String input) in C:\01-projects\apside\git\dotnet-challenge-kata-session-01\katas.session.01\Katas.Session.01\ReverseStringKata.cs:line 19&#xD;
-   at Katas.Session._01.Test.ReverseStringKataTest.ReverseWordTest(String input, String expected) in C:\01-projects\apside\git\dotnet-challenge-kata-session-01\katas.session.01\katas.session.01.test\ReverseStringKataTest.cs:line 21&#xD;
+          <StackTrace>   at Katas.Session._01.ReverseStringKata.ReverseWords(String input) in C:\Users\gvalentin\Documents\pers\tech\dotnet-challenge-kata-session-01\katas.session.01\Katas.Session.01\ReverseStringKata.cs:line 15&#xD;
+   at Katas.Session._01.Test.ReverseStringKataTest.ReverseWordTest(String input, String expected) in C:\Users\gvalentin\Documents\pers\tech\dotnet-challenge-kata-session-01\katas.session.01\katas.session.01.test\ReverseStringKataTest.cs:line 15&#xD;
    at InvokeStub_ReverseStringKataTest.ReverseWordTest(Object, Span`1)&#xD;
    at System.Reflection.MethodBaseInvoker.InvokeWithFewArgs(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
 </StackTrace>
         </ErrorInfo>
       </Output>
     </UnitTestResult>
-    <UnitTestResult executionId="f86ac3a0-ff23-4fad-9251-542d8b3ba841" testId="e28f2492-0aad-6fad-7143-714e599eada8" testName="SumMultiplesBelow(20,78)" computerName="RNSPTP059P" duration="00:00:00.0005550" startTime="2024-09-24T13:14:54.2934857+02:00" endTime="2024-09-24T13:14:54.2940407+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="f86ac3a0-ff23-4fad-9251-542d8b3ba841">
+    <UnitTestResult executionId="cd8a3390-4a55-44b0-98a6-6ff859ebc910" testId="946cac8a-2444-db1c-b2a8-30349d43a95d" testName="SumMultiplesBelow(200,9168)" computerName="CLRPTP32P" duration="00:00:00.0002670" startTime="2024-11-28T09:42:11.3433578+01:00" endTime="2024-11-28T09:42:11.3436245+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="cd8a3390-4a55-44b0-98a6-6ff859ebc910">
       <Output>
         <ErrorInfo>
-          <Message>System.NotImplementedException : The method or operation is not implemented.</Message>
-          <StackTrace>   at Katas.Session._01.MultipleKata.SumMultiplesBelow(Int32 input) in C:\01-projects\apside\git\dotnet-challenge-kata-session-01\katas.session.01\Katas.Session.01\MultipleKata.cs:line 21&#xD;
-   at Katas.Session._01.Test.MultipleKataTest.SumMultiplesBelow(Int32 input, Int32 expected) in C:\01-projects\apside\git\dotnet-challenge-kata-session-01\katas.session.01\katas.session.01.test\MultipleKataTest.cs:line 23&#xD;
+          <Message>  Value: 200&#xD;
+  Expected: 9168&#xD;
+  But was:  19900&#xD;
+</Message>
+          <StackTrace>   at Katas.Session._01.Test.MultipleKataTest.SumMultiplesBelow(Int32 input, Int32 expected) in C:\Users\gvalentin\Documents\pers\tech\dotnet-challenge-kata-session-01\katas.session.01\katas.session.01.test\MultipleKataTest.cs:line 17&#xD;
    at InvokeStub_MultipleKataTest.SumMultiplesBelow(Object, Span`1)&#xD;
-   at System.Reflection.MethodBaseInvoker.InvokeWithFewArgs(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+
+1)    at Katas.Session._01.Test.MultipleKataTest.SumMultiplesBelow(Int32 input, Int32 expected) in C:\Users\gvalentin\Documents\pers\tech\dotnet-challenge-kata-session-01\katas.session.01\katas.session.01.test\MultipleKataTest.cs:line 17&#xD;
+   at InvokeStub_MultipleKataTest.SumMultiplesBelow(Object, Span`1)&#xD;
+
 </StackTrace>
         </ErrorInfo>
       </Output>
     </UnitTestResult>
-    <UnitTestResult executionId="d684ee18-bc19-430c-8f4a-9ebb3a53f802" testId="d30c91b2-fc8f-3067-b4a5-03536a4c161c" testName="ReverseWordTest(&quot;There. Hi&quot;,&quot;Hi There.&quot;)" computerName="RNSPTP059P" duration="00:00:00.0005050" startTime="2024-09-24T13:14:54.2969739+02:00" endTime="2024-09-24T13:14:54.2974789+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="d684ee18-bc19-430c-8f4a-9ebb3a53f802">
+    <UnitTestResult executionId="1fa3c357-c4b0-48b1-9cde-e0a35fe68027" testId="fc11d4de-b0d1-1c1d-68fe-caef1640c414" testName="SumMultiplesBelow(8,14)" computerName="CLRPTP32P" duration="00:00:00.0001550" startTime="2024-11-28T09:42:11.3438259+01:00" endTime="2024-11-28T09:42:11.3439804+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="1fa3c357-c4b0-48b1-9cde-e0a35fe68027">
       <Output>
         <ErrorInfo>
-          <Message>System.NotImplementedException : The method or operation is not implemented.</Message>
-          <StackTrace>   at Katas.Session._01.ReverseStringKata.ReverseWords(String input) in C:\01-projects\apside\git\dotnet-challenge-kata-session-01\katas.session.01\Katas.Session.01\ReverseStringKata.cs:line 19&#xD;
-   at Katas.Session._01.Test.ReverseStringKataTest.ReverseWordTest(String input, String expected) in C:\01-projects\apside\git\dotnet-challenge-kata-session-01\katas.session.01\katas.session.01.test\ReverseStringKataTest.cs:line 21&#xD;
-   at InvokeStub_ReverseStringKataTest.ReverseWordTest(Object, Span`1)&#xD;
-   at System.Reflection.MethodBaseInvoker.InvokeWithFewArgs(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+          <Message>  Value: 8&#xD;
+  Expected: 14&#xD;
+  But was:  0&#xD;
+</Message>
+          <StackTrace>   at Katas.Session._01.Test.MultipleKataTest.SumMultiplesBelow(Int32 input, Int32 expected) in C:\Users\gvalentin\Documents\pers\tech\dotnet-challenge-kata-session-01\katas.session.01\katas.session.01.test\MultipleKataTest.cs:line 17&#xD;
+   at InvokeStub_MultipleKataTest.SumMultiplesBelow(Object, Span`1)&#xD;
+
+1)    at Katas.Session._01.Test.MultipleKataTest.SumMultiplesBelow(Int32 input, Int32 expected) in C:\Users\gvalentin\Documents\pers\tech\dotnet-challenge-kata-session-01\katas.session.01\katas.session.01.test\MultipleKataTest.cs:line 17&#xD;
+   at InvokeStub_MultipleKataTest.SumMultiplesBelow(Object, Span`1)&#xD;
+
 </StackTrace>
         </ErrorInfo>
       </Output>
     </UnitTestResult>
-    <UnitTestResult executionId="8e8d46f8-042a-4040-ab13-7dd2aa4ab8cd" testId="627c1473-3190-fed7-4956-baa8983d7cff" testName="ZeroIsEvenTest" computerName="RNSPTP059P" duration="00:00:00.0003890" startTime="2024-09-24T13:14:54.2880504+02:00" endTime="2024-09-24T13:14:54.2884392+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="8e8d46f8-042a-4040-ab13-7dd2aa4ab8cd">
+    <UnitTestResult executionId="363f01c3-adf5-4516-b218-3bb5fcf2d30c" testId="22b7b4d8-ec29-6183-842b-faa8aceeab54" testName="ComputeMinMaxTest(&quot;73 -28 -18 27 23 -36&quot;,&quot;73 -36&quot;)" computerName="CLRPTP32P" duration="00:00:00.0000040" startTime="2024-11-28T09:42:11.3227941+01:00" endTime="2024-11-28T09:42:11.3227981+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="363f01c3-adf5-4516-b218-3bb5fcf2d30c" />
+    <UnitTestResult executionId="3ec69484-e4b9-433f-ad1d-c152fdb2c5fa" testId="395c816a-8bde-585a-c184-e326b6a9ab73" testName="TestCase(&quot;tourista&quot;,4)" computerName="CLRPTP32P" duration="00:00:00.0002080" startTime="2024-11-28T09:42:11.3517750+01:00" endTime="2024-11-28T09:42:11.3519825+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="3ec69484-e4b9-433f-ad1d-c152fdb2c5fa">
       <Output>
         <ErrorInfo>
           <Message>System.NotImplementedException : The method or operation is not implemented.</Message>
-          <StackTrace>   at Katas.Session._01.EvenOddKata.EvenOrOdd(Int32 input) in C:\01-projects\apside\git\dotnet-challenge-kata-session-01\katas.session.01\Katas.Session.01\EvenOddKata.cs:line 19&#xD;
-   at Katas.Session._01.Test.EvenOddKataTest.ZeroIsEvenTest() in C:\01-projects\apside\git\dotnet-challenge-kata-session-01\katas.session.01\katas.session.01.test\EvenOddKataTest.cs:line 43&#xD;
-   at System.RuntimeMethodHandle.InvokeMethod(Object target, Void** arguments, Signature sig, Boolean isConstructor)&#xD;
-   at System.Reflection.MethodBaseInvoker.InvokeWithNoArgs(Object obj, BindingFlags invokeAttr)
-</StackTrace>
-        </ErrorInfo>
-      </Output>
-    </UnitTestResult>
-    <UnitTestResult executionId="e73420e1-d1c3-42ea-8ea9-2327d7a1e067" testId="63a19c50-ddb6-ead2-b1f1-403d96560d5d" testName="NegativeOddTest(-7)" computerName="RNSPTP059P" duration="00:00:00.0005580" startTime="2024-09-24T13:14:54.2855182+02:00" endTime="2024-09-24T13:14:54.2860756+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="e73420e1-d1c3-42ea-8ea9-2327d7a1e067">
-      <Output>
-        <ErrorInfo>
-          <Message>System.NotImplementedException : The method or operation is not implemented.</Message>
-          <StackTrace>   at Katas.Session._01.EvenOddKata.EvenOrOdd(Int32 input) in C:\01-projects\apside\git\dotnet-challenge-kata-session-01\katas.session.01\Katas.Session.01\EvenOddKata.cs:line 19&#xD;
-   at Katas.Session._01.Test.EvenOddKataTest.NegativeOddTest(Int32 input) in C:\01-projects\apside\git\dotnet-challenge-kata-session-01\katas.session.01\katas.session.01.test\EvenOddKataTest.cs:line 30&#xD;
-   at InvokeStub_EvenOddKataTest.NegativeOddTest(Object, Span`1)&#xD;
-   at System.Reflection.MethodBaseInvoker.InvokeWithOneArg(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
-</StackTrace>
-        </ErrorInfo>
-      </Output>
-    </UnitTestResult>
-    <UnitTestResult executionId="12b4cc65-42ed-4a88-9f9a-c889fe981915" testId="21a33686-5f6a-6667-1f47-f4937c8e479b" testName="SumMultiplesBelow(10,23)" computerName="RNSPTP059P" duration="00:00:00.0006140" startTime="2024-09-24T13:14:54.2928550+02:00" endTime="2024-09-24T13:14:54.2934691+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="12b4cc65-42ed-4a88-9f9a-c889fe981915">
-      <Output>
-        <ErrorInfo>
-          <Message>System.NotImplementedException : The method or operation is not implemented.</Message>
-          <StackTrace>   at Katas.Session._01.MultipleKata.SumMultiplesBelow(Int32 input) in C:\01-projects\apside\git\dotnet-challenge-kata-session-01\katas.session.01\Katas.Session.01\MultipleKata.cs:line 21&#xD;
-   at Katas.Session._01.Test.MultipleKataTest.SumMultiplesBelow(Int32 input, Int32 expected) in C:\01-projects\apside\git\dotnet-challenge-kata-session-01\katas.session.01\katas.session.01.test\MultipleKataTest.cs:line 23&#xD;
-   at System.RuntimeMethodHandle.InvokeMethod(Object target, Void** arguments, Signature sig, Boolean isConstructor)&#xD;
-   at System.Reflection.MethodBaseInvoker.InvokeDirectByRefWithFewArgs(Object obj, Span`1 copyOfArgs, BindingFlags invokeAttr)
-</StackTrace>
-        </ErrorInfo>
-      </Output>
-    </UnitTestResult>
-    <UnitTestResult executionId="ec1b9574-199f-4c10-90a0-5c2b66b97f0c" testId="6d5f6542-de52-3c25-65b1-c5d75cf46226" testName="TestCase(&quot;chandail&quot;,3)" computerName="RNSPTP059P" duration="00:00:00.0002860" startTime="2024-09-24T13:14:54.3009748+02:00" endTime="2024-09-24T13:14:54.3012612+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="ec1b9574-199f-4c10-90a0-5c2b66b97f0c">
-      <Output>
-        <ErrorInfo>
-          <Message>System.NotImplementedException : The method or operation is not implemented.</Message>
-          <StackTrace>   at Katas.Session._01.VowelsKata.CountVowels(String input) in C:\01-projects\apside\git\dotnet-challenge-kata-session-01\katas.session.01\Katas.Session.01\VowelsKata.cs:line 20&#xD;
-   at Katas.Session._01.Test.VowelsKataTest.TestCase(String input, Int32 expected) in C:\01-projects\apside\git\dotnet-challenge-kata-session-01\katas.session.01\katas.session.01.test\VowelsKataTest.cs:line 20&#xD;
+          <StackTrace>   at Katas.Session._01.VowelsKata.CountVowels(String input) in C:\Users\gvalentin\Documents\pers\tech\dotnet-challenge-kata-session-01\katas.session.01\Katas.Session.01\VowelsKata.cs:line 16&#xD;
+   at Katas.Session._01.Test.VowelsKataTest.TestCase(String input, Int32 expected) in C:\Users\gvalentin\Documents\pers\tech\dotnet-challenge-kata-session-01\katas.session.01\katas.session.01.test\VowelsKataTest.cs:line 14&#xD;
    at InvokeStub_VowelsKataTest.TestCase(Object, Span`1)&#xD;
    at System.Reflection.MethodBaseInvoker.InvokeWithFewArgs(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
 </StackTrace>
         </ErrorInfo>
       </Output>
     </UnitTestResult>
-    <UnitTestResult executionId="dd8a4024-06fc-40bf-9a3f-5109a54a7106" testId="fc361f04-2e77-9345-dc9a-c0ae25f353b0" testName="ReverseWordTest(&quot;thrones of game A&quot;,&quot;A game of thrones&quot;)" computerName="RNSPTP059P" duration="00:00:00.0002360" startTime="2024-09-24T13:14:54.2982721+02:00" endTime="2024-09-24T13:14:54.2985078+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="dd8a4024-06fc-40bf-9a3f-5109a54a7106">
+    <UnitTestResult executionId="7d486b9a-885d-4453-925d-85299c3b25e8" testId="46e1b543-2c66-dabd-b76a-0374a9903dae" testName="ReverseWordTest(&quot;Yes we can!&quot;,&quot;can! we Yes&quot;)" computerName="CLRPTP32P" duration="00:00:00.0000600" startTime="2024-11-28T09:42:11.3461577+01:00" endTime="2024-11-28T09:42:11.3462174+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="7d486b9a-885d-4453-925d-85299c3b25e8">
       <Output>
         <ErrorInfo>
           <Message>System.NotImplementedException : The method or operation is not implemented.</Message>
-          <StackTrace>   at Katas.Session._01.ReverseStringKata.ReverseWords(String input) in C:\01-projects\apside\git\dotnet-challenge-kata-session-01\katas.session.01\Katas.Session.01\ReverseStringKata.cs:line 19&#xD;
-   at Katas.Session._01.Test.ReverseStringKataTest.ReverseWordTest(String input, String expected) in C:\01-projects\apside\git\dotnet-challenge-kata-session-01\katas.session.01\katas.session.01.test\ReverseStringKataTest.cs:line 21&#xD;
+          <StackTrace>   at Katas.Session._01.ReverseStringKata.ReverseWords(String input) in C:\Users\gvalentin\Documents\pers\tech\dotnet-challenge-kata-session-01\katas.session.01\Katas.Session.01\ReverseStringKata.cs:line 15&#xD;
+   at Katas.Session._01.Test.ReverseStringKataTest.ReverseWordTest(String input, String expected) in C:\Users\gvalentin\Documents\pers\tech\dotnet-challenge-kata-session-01\katas.session.01\katas.session.01.test\ReverseStringKataTest.cs:line 15&#xD;
    at InvokeStub_ReverseStringKataTest.ReverseWordTest(Object, Span`1)&#xD;
    at System.Reflection.MethodBaseInvoker.InvokeWithFewArgs(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
 </StackTrace>
         </ErrorInfo>
       </Output>
     </UnitTestResult>
-    <UnitTestResult executionId="9da9edbd-64c5-44b8-9bed-2f0104177775" testId="22b7b4d8-ec29-6183-842b-faa8aceeab54" testName="ComputeMinMaxTest(&quot;73 -28 -18 27 23 -36&quot;,&quot;73 -36&quot;)" computerName="RNSPTP059P" duration="00:00:00.0001890" startTime="2024-09-24T13:14:54.2924364+02:00" endTime="2024-09-24T13:14:54.2926252+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="9da9edbd-64c5-44b8-9bed-2f0104177775">
+    <UnitTestResult executionId="71ad8323-fd20-49fc-bcea-64228bfef1d4" testId="47def0c6-3498-ef1e-0e9a-d4c16878107d" testName="ReverseWordTest(&quot;L'hymne de nos campagnes&quot;,&quot;campagnes nos de L'hymne&quot;)" computerName="CLRPTP32P" duration="00:00:00.0000690" startTime="2024-11-28T09:42:11.3463493+01:00" endTime="2024-11-28T09:42:11.3464182+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="71ad8323-fd20-49fc-bcea-64228bfef1d4">
       <Output>
         <ErrorInfo>
           <Message>System.NotImplementedException : The method or operation is not implemented.</Message>
-          <StackTrace>   at Katas.Session._01.MinMaxKata.ComputeMinMax(String input) in C:\01-projects\apside\git\dotnet-challenge-kata-session-01\katas.session.01\Katas.Session.01\MinMaxKata.cs:line 21&#xD;
-   at Katas.Session._01.Test.MinMaxKataTest.ComputeMinMaxTest(String input, String expected) in C:\01-projects\apside\git\dotnet-challenge-kata-session-01\katas.session.01\katas.session.01.test\MinMaxKataTest.cs:line 20&#xD;
-   at InvokeStub_MinMaxKataTest.ComputeMinMaxTest(Object, Span`1)&#xD;
-   at System.Reflection.MethodBaseInvoker.InvokeWithFewArgs(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
-</StackTrace>
-        </ErrorInfo>
-      </Output>
-    </UnitTestResult>
-    <UnitTestResult executionId="0c67ce12-a7e2-4951-9662-e6ace1cfc88d" testId="6eee214f-7716-45cb-53a1-48b743f4ebf3" testName="TestCase(&quot;transatlantique&quot;,6)" computerName="RNSPTP059P" duration="00:00:00.0007060" startTime="2024-09-24T13:14:54.2991161+02:00" endTime="2024-09-24T13:14:54.2998216+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="0c67ce12-a7e2-4951-9662-e6ace1cfc88d">
-      <Output>
-        <ErrorInfo>
-          <Message>System.NotImplementedException : The method or operation is not implemented.</Message>
-          <StackTrace>   at Katas.Session._01.VowelsKata.CountVowels(String input) in C:\01-projects\apside\git\dotnet-challenge-kata-session-01\katas.session.01\Katas.Session.01\VowelsKata.cs:line 20&#xD;
-   at Katas.Session._01.Test.VowelsKataTest.TestCase(String input, Int32 expected) in C:\01-projects\apside\git\dotnet-challenge-kata-session-01\katas.session.01\katas.session.01.test\VowelsKataTest.cs:line 20&#xD;
-   at System.RuntimeMethodHandle.InvokeMethod(Object target, Void** arguments, Signature sig, Boolean isConstructor)&#xD;
-   at System.Reflection.MethodBaseInvoker.InvokeDirectByRefWithFewArgs(Object obj, Span`1 copyOfArgs, BindingFlags invokeAttr)
-</StackTrace>
-        </ErrorInfo>
-      </Output>
-    </UnitTestResult>
-    <UnitTestResult executionId="63626f7c-145c-4668-b0cf-8a25a1dc8a03" testId="2356662f-dfe9-8abc-13fc-6afd5d4039c1" testName="SumMultiplesBelow(15,50)" computerName="RNSPTP059P" duration="00:00:00.0001789" startTime="2024-09-24T13:14:54.2944891+02:00" endTime="2024-09-24T13:14:54.2946684+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="63626f7c-145c-4668-b0cf-8a25a1dc8a03">
-      <Output>
-        <ErrorInfo>
-          <Message>System.NotImplementedException : The method or operation is not implemented.</Message>
-          <StackTrace>   at Katas.Session._01.MultipleKata.SumMultiplesBelow(Int32 input) in C:\01-projects\apside\git\dotnet-challenge-kata-session-01\katas.session.01\Katas.Session.01\MultipleKata.cs:line 21&#xD;
-   at Katas.Session._01.Test.MultipleKataTest.SumMultiplesBelow(Int32 input, Int32 expected) in C:\01-projects\apside\git\dotnet-challenge-kata-session-01\katas.session.01\katas.session.01.test\MultipleKataTest.cs:line 23&#xD;
-   at InvokeStub_MultipleKataTest.SumMultiplesBelow(Object, Span`1)&#xD;
-   at System.Reflection.MethodBaseInvoker.InvokeWithFewArgs(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
-</StackTrace>
-        </ErrorInfo>
-      </Output>
-    </UnitTestResult>
-    <UnitTestResult executionId="5526a79d-5a4e-432f-8134-33c33945877c" testId="946cac8a-2444-db1c-b2a8-30349d43a95d" testName="SumMultiplesBelow(200,9168)" computerName="RNSPTP059P" duration="00:00:00.0002020" startTime="2024-09-24T13:14:54.2940661+02:00" endTime="2024-09-24T13:14:54.2942678+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="5526a79d-5a4e-432f-8134-33c33945877c">
-      <Output>
-        <ErrorInfo>
-          <Message>System.NotImplementedException : The method or operation is not implemented.</Message>
-          <StackTrace>   at Katas.Session._01.MultipleKata.SumMultiplesBelow(Int32 input) in C:\01-projects\apside\git\dotnet-challenge-kata-session-01\katas.session.01\Katas.Session.01\MultipleKata.cs:line 21&#xD;
-   at Katas.Session._01.Test.MultipleKataTest.SumMultiplesBelow(Int32 input, Int32 expected) in C:\01-projects\apside\git\dotnet-challenge-kata-session-01\katas.session.01\katas.session.01.test\MultipleKataTest.cs:line 23&#xD;
-   at InvokeStub_MultipleKataTest.SumMultiplesBelow(Object, Span`1)&#xD;
-   at System.Reflection.MethodBaseInvoker.InvokeWithFewArgs(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
-</StackTrace>
-        </ErrorInfo>
-      </Output>
-    </UnitTestResult>
-    <UnitTestResult executionId="12b1e481-e4ec-4a20-b475-a12ef4ffba43" testId="288450e0-cba2-d0b4-5940-ca946ab53c9d" testName="ComputeMinMaxTest(&quot;8 3 -5 42 -1 0 0 -9 4 7 4 -4&quot;,&quot;42 -9&quot;)" computerName="RNSPTP059P" duration="00:00:00.0007600" startTime="2024-09-24T13:14:54.2902005+02:00" endTime="2024-09-24T13:14:54.2909597+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="12b1e481-e4ec-4a20-b475-a12ef4ffba43">
-      <Output>
-        <ErrorInfo>
-          <Message>System.NotImplementedException : The method or operation is not implemented.</Message>
-          <StackTrace>   at Katas.Session._01.MinMaxKata.ComputeMinMax(String input) in C:\01-projects\apside\git\dotnet-challenge-kata-session-01\katas.session.01\Katas.Session.01\MinMaxKata.cs:line 21&#xD;
-   at Katas.Session._01.Test.MinMaxKataTest.ComputeMinMaxTest(String input, String expected) in C:\01-projects\apside\git\dotnet-challenge-kata-session-01\katas.session.01\katas.session.01.test\MinMaxKataTest.cs:line 20&#xD;
-   at System.RuntimeMethodHandle.InvokeMethod(Object target, Void** arguments, Signature sig, Boolean isConstructor)&#xD;
-   at System.Reflection.MethodBaseInvoker.InvokeDirectByRefWithFewArgs(Object obj, Span`1 copyOfArgs, BindingFlags invokeAttr)
-</StackTrace>
-        </ErrorInfo>
-      </Output>
-    </UnitTestResult>
-    <UnitTestResult executionId="03e60e59-dee0-4976-a7c7-3762394e9ff4" testId="40b625bb-e8d4-1859-67f4-86f1b245359e" testName="ComputeMinMaxTest(&quot;-21 -20 -6 70 -7&quot;,&quot;70 -21&quot;)" computerName="RNSPTP059P" duration="00:00:00.0002100" startTime="2024-09-24T13:14:54.2917733+02:00" endTime="2024-09-24T13:14:54.2919832+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="03e60e59-dee0-4976-a7c7-3762394e9ff4">
-      <Output>
-        <ErrorInfo>
-          <Message>System.NotImplementedException : The method or operation is not implemented.</Message>
-          <StackTrace>   at Katas.Session._01.MinMaxKata.ComputeMinMax(String input) in C:\01-projects\apside\git\dotnet-challenge-kata-session-01\katas.session.01\Katas.Session.01\MinMaxKata.cs:line 21&#xD;
-   at Katas.Session._01.Test.MinMaxKataTest.ComputeMinMaxTest(String input, String expected) in C:\01-projects\apside\git\dotnet-challenge-kata-session-01\katas.session.01\katas.session.01.test\MinMaxKataTest.cs:line 20&#xD;
-   at InvokeStub_MinMaxKataTest.ComputeMinMaxTest(Object, Span`1)&#xD;
-   at System.Reflection.MethodBaseInvoker.InvokeWithFewArgs(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
-</StackTrace>
-        </ErrorInfo>
-      </Output>
-    </UnitTestResult>
-    <UnitTestResult executionId="ab76fbea-f445-4aa7-9c66-839fee5142c8" testId="52cf92fa-5962-b025-9ce0-9c62e763192b" testName="ReverseWordTest(&quot;Hello World&quot;,&quot;World Hello&quot;)" computerName="RNSPTP059P" duration="00:00:00.0004990" startTime="2024-09-24T13:14:54.2964572+02:00" endTime="2024-09-24T13:14:54.2969555+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="ab76fbea-f445-4aa7-9c66-839fee5142c8">
-      <Output>
-        <ErrorInfo>
-          <Message>System.NotImplementedException : The method or operation is not implemented.</Message>
-          <StackTrace>   at Katas.Session._01.ReverseStringKata.ReverseWords(String input) in C:\01-projects\apside\git\dotnet-challenge-kata-session-01\katas.session.01\Katas.Session.01\ReverseStringKata.cs:line 19&#xD;
-   at Katas.Session._01.Test.ReverseStringKataTest.ReverseWordTest(String input, String expected) in C:\01-projects\apside\git\dotnet-challenge-kata-session-01\katas.session.01\katas.session.01.test\ReverseStringKataTest.cs:line 21&#xD;
-   at System.RuntimeMethodHandle.InvokeMethod(Object target, Void** arguments, Signature sig, Boolean isConstructor)&#xD;
-   at System.Reflection.MethodBaseInvoker.InvokeDirectByRefWithFewArgs(Object obj, Span`1 copyOfArgs, BindingFlags invokeAttr)
-</StackTrace>
-        </ErrorInfo>
-      </Output>
-    </UnitTestResult>
-    <UnitTestResult executionId="5ef05c93-4c44-4161-a6a5-95b751c33dad" testId="b0462b24-a432-4aa8-673b-28fb9bcd2cd2" testName="PositiveEvenTest(42)" computerName="RNSPTP059P" duration="00:00:00.0005050" startTime="2024-09-24T13:14:54.2865817+02:00" endTime="2024-09-24T13:14:54.2870865+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="5ef05c93-4c44-4161-a6a5-95b751c33dad">
-      <Output>
-        <ErrorInfo>
-          <Message>System.NotImplementedException : The method or operation is not implemented.</Message>
-          <StackTrace>   at Katas.Session._01.EvenOddKata.EvenOrOdd(Int32 input) in C:\01-projects\apside\git\dotnet-challenge-kata-session-01\katas.session.01\Katas.Session.01\EvenOddKata.cs:line 19&#xD;
-   at Katas.Session._01.Test.EvenOddKataTest.PositiveEvenTest(Int32 input) in C:\01-projects\apside\git\dotnet-challenge-kata-session-01\katas.session.01\katas.session.01.test\EvenOddKataTest.cs:line 23&#xD;
-   at InvokeStub_EvenOddKataTest.PositiveEvenTest(Object, Span`1)&#xD;
-   at System.Reflection.MethodBaseInvoker.InvokeWithOneArg(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
-</StackTrace>
-        </ErrorInfo>
-      </Output>
-    </UnitTestResult>
-    <UnitTestResult executionId="cbac55e6-ad78-4846-a870-e905b9ca1b6e" testId="982be789-f5fb-4b21-9a5c-727698cea1ca" testName="TestCase(&quot;rayon&quot;,2)" computerName="RNSPTP059P" duration="00:00:00.0002340" startTime="2024-09-24T13:14:54.3018803+02:00" endTime="2024-09-24T13:14:54.3021138+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="cbac55e6-ad78-4846-a870-e905b9ca1b6e">
-      <Output>
-        <ErrorInfo>
-          <Message>System.NotImplementedException : The method or operation is not implemented.</Message>
-          <StackTrace>   at Katas.Session._01.VowelsKata.CountVowels(String input) in C:\01-projects\apside\git\dotnet-challenge-kata-session-01\katas.session.01\Katas.Session.01\VowelsKata.cs:line 20&#xD;
-   at Katas.Session._01.Test.VowelsKataTest.TestCase(String input, Int32 expected) in C:\01-projects\apside\git\dotnet-challenge-kata-session-01\katas.session.01\katas.session.01.test\VowelsKataTest.cs:line 20&#xD;
-   at InvokeStub_VowelsKataTest.TestCase(Object, Span`1)&#xD;
-   at System.Reflection.MethodBaseInvoker.InvokeWithFewArgs(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
-</StackTrace>
-        </ErrorInfo>
-      </Output>
-    </UnitTestResult>
-    <UnitTestResult executionId="f4ccdf44-1dfc-43f9-8562-cc4b4f6f8db9" testId="b3c6c7de-fdcd-64e4-0cb7-40ec699e9e54" testName="PositiveEvenTest(2)" computerName="RNSPTP059P" duration="00:00:00.0003930" startTime="2024-09-24T13:14:54.2861719+02:00" endTime="2024-09-24T13:14:54.2865648+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="f4ccdf44-1dfc-43f9-8562-cc4b4f6f8db9">
-      <Output>
-        <ErrorInfo>
-          <Message>System.NotImplementedException : The method or operation is not implemented.</Message>
-          <StackTrace>   at Katas.Session._01.EvenOddKata.EvenOrOdd(Int32 input) in C:\01-projects\apside\git\dotnet-challenge-kata-session-01\katas.session.01\Katas.Session.01\EvenOddKata.cs:line 19&#xD;
-   at Katas.Session._01.Test.EvenOddKataTest.PositiveEvenTest(Int32 input) in C:\01-projects\apside\git\dotnet-challenge-kata-session-01\katas.session.01\katas.session.01.test\EvenOddKataTest.cs:line 23&#xD;
-   at System.RuntimeMethodHandle.InvokeMethod(Object target, Void** arguments, Signature sig, Boolean isConstructor)&#xD;
-   at System.Reflection.MethodBaseInvoker.InvokeDirectByRefWithFewArgs(Object obj, Span`1 copyOfArgs, BindingFlags invokeAttr)
-</StackTrace>
-        </ErrorInfo>
-      </Output>
-    </UnitTestResult>
-    <UnitTestResult executionId="7cf079eb-4805-4b69-bd75-c78bd09a66a2" testId="70f596d3-083a-01db-aabf-4ab5a6a1f62b" testName="ReverseWordTest(&quot;survive to Drive&quot;,&quot;Drive to survive&quot;)" computerName="RNSPTP059P" duration="00:00:00.0002250" startTime="2024-09-24T13:14:54.2980276+02:00" endTime="2024-09-24T13:14:54.2982528+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="7cf079eb-4805-4b69-bd75-c78bd09a66a2">
-      <Output>
-        <ErrorInfo>
-          <Message>System.NotImplementedException : The method or operation is not implemented.</Message>
-          <StackTrace>   at Katas.Session._01.ReverseStringKata.ReverseWords(String input) in C:\01-projects\apside\git\dotnet-challenge-kata-session-01\katas.session.01\Katas.Session.01\ReverseStringKata.cs:line 19&#xD;
-   at Katas.Session._01.Test.ReverseStringKataTest.ReverseWordTest(String input, String expected) in C:\01-projects\apside\git\dotnet-challenge-kata-session-01\katas.session.01\katas.session.01.test\ReverseStringKataTest.cs:line 21&#xD;
+          <StackTrace>   at Katas.Session._01.ReverseStringKata.ReverseWords(String input) in C:\Users\gvalentin\Documents\pers\tech\dotnet-challenge-kata-session-01\katas.session.01\Katas.Session.01\ReverseStringKata.cs:line 15&#xD;
+   at Katas.Session._01.Test.ReverseStringKataTest.ReverseWordTest(String input, String expected) in C:\Users\gvalentin\Documents\pers\tech\dotnet-challenge-kata-session-01\katas.session.01\katas.session.01.test\ReverseStringKataTest.cs:line 15&#xD;
    at InvokeStub_ReverseStringKataTest.ReverseWordTest(Object, Span`1)&#xD;
    at System.Reflection.MethodBaseInvoker.InvokeWithFewArgs(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
 </StackTrace>
         </ErrorInfo>
       </Output>
     </UnitTestResult>
-    <UnitTestResult executionId="14eafe12-112f-415a-97e5-fee8e4973f00" testId="395c816a-8bde-585a-c184-e326b6a9ab73" testName="TestCase(&quot;tourista&quot;,4)" computerName="RNSPTP059P" duration="00:00:00.0003350" startTime="2024-09-24T13:14:54.3015253+02:00" endTime="2024-09-24T13:14:54.3018596+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="14eafe12-112f-415a-97e5-fee8e4973f00">
+    <UnitTestResult executionId="fa359d9b-8b05-469a-94e8-774a762b606a" testId="627c1473-3190-fed7-4956-baa8983d7cff" testName="ZeroIsEvenTest" computerName="CLRPTP32P" duration="00:00:00.0000410" startTime="2024-11-28T09:42:11.3198647+01:00" endTime="2024-11-28T09:42:11.3199058+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="fa359d9b-8b05-469a-94e8-774a762b606a" />
+    <UnitTestResult executionId="99b6829c-1352-49bd-b856-713297e57960" testId="80b7bd27-8bec-73e1-d3fa-0c77ec12425e" testName="ComputeMinMaxTest(&quot;-33 68 15 52 -49&quot;,&quot;68 -49&quot;)" computerName="CLRPTP32P" duration="00:00:00.0000040" startTime="2024-11-28T09:42:11.3227880+01:00" endTime="2024-11-28T09:42:11.3227920+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="99b6829c-1352-49bd-b856-713297e57960" />
+    <UnitTestResult executionId="e36f9459-aa25-4c2f-a0ec-2a125a80328f" testId="63a19c50-ddb6-ead2-b1f1-403d96560d5d" testName="NegativeOddTest(-7)" computerName="CLRPTP32P" duration="00:00:00.0000950" startTime="2024-11-28T09:42:11.3194415+01:00" endTime="2024-11-28T09:42:11.3195360+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="e36f9459-aa25-4c2f-a0ec-2a125a80328f" />
+    <UnitTestResult executionId="71649f40-b544-4e0e-88e4-b1a041ed6177" testId="f77d222a-3348-27d1-c187-6e3f9f0b520c" testName="SumMultiplesBelow(15,45)" computerName="CLRPTP32P" duration="00:00:00.0001580" startTime="2024-11-28T09:42:11.3436474+01:00" endTime="2024-11-28T09:42:11.3438048+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="71649f40-b544-4e0e-88e4-b1a041ed6177">
       <Output>
         <ErrorInfo>
-          <Message>System.NotImplementedException : The method or operation is not implemented.</Message>
-          <StackTrace>   at Katas.Session._01.VowelsKata.CountVowels(String input) in C:\01-projects\apside\git\dotnet-challenge-kata-session-01\katas.session.01\Katas.Session.01\VowelsKata.cs:line 20&#xD;
-   at Katas.Session._01.Test.VowelsKataTest.TestCase(String input, Int32 expected) in C:\01-projects\apside\git\dotnet-challenge-kata-session-01\katas.session.01\katas.session.01.test\VowelsKataTest.cs:line 20&#xD;
-   at InvokeStub_VowelsKataTest.TestCase(Object, Span`1)&#xD;
-   at System.Reflection.MethodBaseInvoker.InvokeWithFewArgs(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
-</StackTrace>
-        </ErrorInfo>
-      </Output>
-    </UnitTestResult>
-    <UnitTestResult executionId="63264746-775e-4e06-8048-9da7009793e7" testId="fc11d4de-b0d1-1c1d-68fe-caef1640c414" testName="SumMultiplesBelow(8,14)" computerName="RNSPTP059P" duration="00:00:00.0002630" startTime="2024-09-24T13:14:54.2956848+02:00" endTime="2024-09-24T13:14:54.2959472+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="63264746-775e-4e06-8048-9da7009793e7">
-      <Output>
-        <ErrorInfo>
-          <Message>System.NotImplementedException : The method or operation is not implemented.</Message>
-          <StackTrace>   at Katas.Session._01.MultipleKata.SumMultiplesBelow(Int32 input) in C:\01-projects\apside\git\dotnet-challenge-kata-session-01\katas.session.01\Katas.Session.01\MultipleKata.cs:line 21&#xD;
-   at Katas.Session._01.Test.MultipleKataTest.SumMultiplesBelow(Int32 input, Int32 expected) in C:\01-projects\apside\git\dotnet-challenge-kata-session-01\katas.session.01\katas.session.01.test\MultipleKataTest.cs:line 23&#xD;
+          <Message>  Value: 15&#xD;
+  Expected: 45&#xD;
+  But was:  105&#xD;
+</Message>
+          <StackTrace>   at Katas.Session._01.Test.MultipleKataTest.SumMultiplesBelow(Int32 input, Int32 expected) in C:\Users\gvalentin\Documents\pers\tech\dotnet-challenge-kata-session-01\katas.session.01\katas.session.01.test\MultipleKataTest.cs:line 17&#xD;
    at InvokeStub_MultipleKataTest.SumMultiplesBelow(Object, Span`1)&#xD;
-   at System.Reflection.MethodBaseInvoker.InvokeWithFewArgs(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
-</StackTrace>
-        </ErrorInfo>
-      </Output>
-    </UnitTestResult>
-    <UnitTestResult executionId="1ce3a994-c4e7-4ba7-8102-de3866da8f51" testId="b099626a-07ed-ca16-e547-15698d940428" testName="NegativeEvenTest(-2)" computerName="RNSPTP059P" duration="00:00:00.0175320" startTime="2024-09-24T13:14:54.2603990+02:00" endTime="2024-09-24T13:14:54.2777912+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="1ce3a994-c4e7-4ba7-8102-de3866da8f51">
-      <Output>
-        <ErrorInfo>
-          <Message>System.NotImplementedException : The method or operation is not implemented.</Message>
-          <StackTrace>   at Katas.Session._01.EvenOddKata.EvenOrOdd(Int32 input) in C:\01-projects\apside\git\dotnet-challenge-kata-session-01\katas.session.01\Katas.Session.01\EvenOddKata.cs:line 19&#xD;
-   at Katas.Session._01.Test.EvenOddKataTest.NegativeEvenTest(Int32 input) in C:\01-projects\apside\git\dotnet-challenge-kata-session-01\katas.session.01\katas.session.01.test\EvenOddKataTest.cs:line 37&#xD;
-   at System.RuntimeMethodHandle.InvokeMethod(Object target, Void** arguments, Signature sig, Boolean isConstructor)&#xD;
-   at System.Reflection.MethodBaseInvoker.InvokeDirectByRefWithFewArgs(Object obj, Span`1 copyOfArgs, BindingFlags invokeAttr)
-</StackTrace>
-        </ErrorInfo>
-      </Output>
-    </UnitTestResult>
-    <UnitTestResult executionId="1fb2ab83-198f-4cb2-88d2-d5d802e85771" testId="f2e2bda2-ce51-4c1d-271f-71538a57d84d" testName="SumMultiplesBelow(-15,0)" computerName="RNSPTP059P" duration="00:00:00.0003390" startTime="2024-09-24T13:14:54.2953272+02:00" endTime="2024-09-24T13:14:54.2956656+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="1fb2ab83-198f-4cb2-88d2-d5d802e85771">
-      <Output>
-        <ErrorInfo>
-          <Message>System.NotImplementedException : The method or operation is not implemented.</Message>
-          <StackTrace>   at Katas.Session._01.MultipleKata.SumMultiplesBelow(Int32 input) in C:\01-projects\apside\git\dotnet-challenge-kata-session-01\katas.session.01\Katas.Session.01\MultipleKata.cs:line 21&#xD;
-   at Katas.Session._01.Test.MultipleKataTest.SumMultiplesBelow(Int32 input, Int32 expected) in C:\01-projects\apside\git\dotnet-challenge-kata-session-01\katas.session.01\katas.session.01.test\MultipleKataTest.cs:line 23&#xD;
+
+1)    at Katas.Session._01.Test.MultipleKataTest.SumMultiplesBelow(Int32 input, Int32 expected) in C:\Users\gvalentin\Documents\pers\tech\dotnet-challenge-kata-session-01\katas.session.01\katas.session.01.test\MultipleKataTest.cs:line 17&#xD;
    at InvokeStub_MultipleKataTest.SumMultiplesBelow(Object, Span`1)&#xD;
-   at System.Reflection.MethodBaseInvoker.InvokeWithFewArgs(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+
 </StackTrace>
         </ErrorInfo>
       </Output>
     </UnitTestResult>
-    <UnitTestResult executionId="ce1fe8e0-436c-46d8-9d31-0a0d9c394508" testId="b340dc6f-9ffc-490c-e043-bf0f3c78db88" testName="NegativeOddTest(-1)" computerName="RNSPTP059P" duration="00:00:00.0004390" startTime="2024-09-24T13:14:54.2850611+02:00" endTime="2024-09-24T13:14:54.2854997+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="ce1fe8e0-436c-46d8-9d31-0a0d9c394508">
+    <UnitTestResult executionId="bd50a7ff-1d4c-44ef-a63e-a6a56dfc65ea" testId="3d8dec6a-7eee-d6d7-1499-746332efeb14" testName="ComputeMinMaxTest(&quot;43 20 31 -45 93&quot;,&quot;93 -45&quot;)" computerName="CLRPTP32P" duration="00:00:00.0000120" startTime="2024-11-28T09:42:11.3227544+01:00" endTime="2024-11-28T09:42:11.3227666+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="bd50a7ff-1d4c-44ef-a63e-a6a56dfc65ea" />
+    <UnitTestResult executionId="544403a9-4ba7-45ab-b5f2-06fe496c8905" testId="d30c91b2-fc8f-3067-b4a5-03536a4c161c" testName="ReverseWordTest(&quot;There. Hi&quot;,&quot;Hi There.&quot;)" computerName="CLRPTP32P" duration="00:00:00.0001990" startTime="2024-11-28T09:42:11.3458742+01:00" endTime="2024-11-28T09:42:11.3460733+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="544403a9-4ba7-45ab-b5f2-06fe496c8905">
       <Output>
         <ErrorInfo>
           <Message>System.NotImplementedException : The method or operation is not implemented.</Message>
-          <StackTrace>   at Katas.Session._01.EvenOddKata.EvenOrOdd(Int32 input) in C:\01-projects\apside\git\dotnet-challenge-kata-session-01\katas.session.01\Katas.Session.01\EvenOddKata.cs:line 19&#xD;
-   at Katas.Session._01.Test.EvenOddKataTest.NegativeOddTest(Int32 input) in C:\01-projects\apside\git\dotnet-challenge-kata-session-01\katas.session.01\katas.session.01.test\EvenOddKataTest.cs:line 30&#xD;
-   at System.RuntimeMethodHandle.InvokeMethod(Object target, Void** arguments, Signature sig, Boolean isConstructor)&#xD;
-   at System.Reflection.MethodBaseInvoker.InvokeDirectByRefWithFewArgs(Object obj, Span`1 copyOfArgs, BindingFlags invokeAttr)
-</StackTrace>
-        </ErrorInfo>
-      </Output>
-    </UnitTestResult>
-    <UnitTestResult executionId="498c5b20-c915-484c-a169-2f9688046748" testId="2c0cf768-31a7-f8a6-dd7d-dc118fb6523e" testName="TestCase(&quot;skyr&quot;,0)" computerName="RNSPTP059P" duration="00:00:00.0002190" startTime="2024-09-24T13:14:54.3012830+02:00" endTime="2024-09-24T13:14:54.3015016+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="498c5b20-c915-484c-a169-2f9688046748">
-      <Output>
-        <ErrorInfo>
-          <Message>System.NotImplementedException : The method or operation is not implemented.</Message>
-          <StackTrace>   at Katas.Session._01.VowelsKata.CountVowels(String input) in C:\01-projects\apside\git\dotnet-challenge-kata-session-01\katas.session.01\Katas.Session.01\VowelsKata.cs:line 20&#xD;
-   at Katas.Session._01.Test.VowelsKataTest.TestCase(String input, Int32 expected) in C:\01-projects\apside\git\dotnet-challenge-kata-session-01\katas.session.01\katas.session.01.test\VowelsKataTest.cs:line 20&#xD;
-   at InvokeStub_VowelsKataTest.TestCase(Object, Span`1)&#xD;
-   at System.Reflection.MethodBaseInvoker.InvokeWithFewArgs(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
-</StackTrace>
-        </ErrorInfo>
-      </Output>
-    </UnitTestResult>
-    <UnitTestResult executionId="7e4dc883-c348-4e58-b1dd-28093eb2f673" testId="46e1b543-2c66-dabd-b76a-0374a9903dae" testName="ReverseWordTest(&quot;Yes we can!&quot;,&quot;can! we Yes&quot;)" computerName="RNSPTP059P" duration="00:00:00.0002400" startTime="2024-09-24T13:14:54.2977733+02:00" endTime="2024-09-24T13:14:54.2980128+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="7e4dc883-c348-4e58-b1dd-28093eb2f673">
-      <Output>
-        <ErrorInfo>
-          <Message>System.NotImplementedException : The method or operation is not implemented.</Message>
-          <StackTrace>   at Katas.Session._01.ReverseStringKata.ReverseWords(String input) in C:\01-projects\apside\git\dotnet-challenge-kata-session-01\katas.session.01\Katas.Session.01\ReverseStringKata.cs:line 19&#xD;
-   at Katas.Session._01.Test.ReverseStringKataTest.ReverseWordTest(String input, String expected) in C:\01-projects\apside\git\dotnet-challenge-kata-session-01\katas.session.01\katas.session.01.test\ReverseStringKataTest.cs:line 21&#xD;
+          <StackTrace>   at Katas.Session._01.ReverseStringKata.ReverseWords(String input) in C:\Users\gvalentin\Documents\pers\tech\dotnet-challenge-kata-session-01\katas.session.01\Katas.Session.01\ReverseStringKata.cs:line 15&#xD;
+   at Katas.Session._01.Test.ReverseStringKataTest.ReverseWordTest(String input, String expected) in C:\Users\gvalentin\Documents\pers\tech\dotnet-challenge-kata-session-01\katas.session.01\katas.session.01.test\ReverseStringKataTest.cs:line 15&#xD;
    at InvokeStub_ReverseStringKataTest.ReverseWordTest(Object, Span`1)&#xD;
    at System.Reflection.MethodBaseInvoker.InvokeWithFewArgs(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
 </StackTrace>
         </ErrorInfo>
       </Output>
     </UnitTestResult>
-    <UnitTestResult executionId="07624bab-99a9-41f9-8249-162cfed856e8" testId="3ca3c1e4-8ae2-0f9e-49fe-3f8d5e10dad4" testName="PositiveOddTest(7)" computerName="RNSPTP059P" duration="00:00:00.0004890" startTime="2024-09-24T13:14:54.2875267+02:00" endTime="2024-09-24T13:14:54.2880156+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="07624bab-99a9-41f9-8249-162cfed856e8">
+    <UnitTestResult executionId="d71cb71a-db1c-4495-abae-142f8a2ace53" testId="3b358dac-a42d-0b47-7a51-d3cc4c3a3b0d" testName="SumMultiplesBelow(2,0)" computerName="CLRPTP32P" duration="00:00:00.0000080" startTime="2024-11-28T09:42:11.3438093+01:00" endTime="2024-11-28T09:42:11.3438171+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="d71cb71a-db1c-4495-abae-142f8a2ace53" />
+    <UnitTestResult executionId="f12402b9-9249-4db9-8934-b34e0212d1da" testId="982be789-f5fb-4b21-9a5c-727698cea1ca" testName="TestCase(&quot;rayon&quot;,2)" computerName="CLRPTP32P" duration="00:00:00.0000820" startTime="2024-11-28T09:42:11.3519891+01:00" endTime="2024-11-28T09:42:11.3520707+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="f12402b9-9249-4db9-8934-b34e0212d1da">
       <Output>
         <ErrorInfo>
           <Message>System.NotImplementedException : The method or operation is not implemented.</Message>
-          <StackTrace>   at Katas.Session._01.EvenOddKata.EvenOrOdd(Int32 input) in C:\01-projects\apside\git\dotnet-challenge-kata-session-01\katas.session.01\Katas.Session.01\EvenOddKata.cs:line 19&#xD;
-   at Katas.Session._01.Test.EvenOddKataTest.PositiveOddTest(Int32 input) in C:\01-projects\apside\git\dotnet-challenge-kata-session-01\katas.session.01\katas.session.01.test\EvenOddKataTest.cs:line 16&#xD;
-   at InvokeStub_EvenOddKataTest.PositiveOddTest(Object, Span`1)&#xD;
-   at System.Reflection.MethodBaseInvoker.InvokeWithOneArg(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+          <StackTrace>   at Katas.Session._01.VowelsKata.CountVowels(String input) in C:\Users\gvalentin\Documents\pers\tech\dotnet-challenge-kata-session-01\katas.session.01\Katas.Session.01\VowelsKata.cs:line 16&#xD;
+   at Katas.Session._01.Test.VowelsKataTest.TestCase(String input, Int32 expected) in C:\Users\gvalentin\Documents\pers\tech\dotnet-challenge-kata-session-01\katas.session.01\katas.session.01.test\VowelsKataTest.cs:line 14&#xD;
+   at InvokeStub_VowelsKataTest.TestCase(Object, Span`1)&#xD;
+   at System.Reflection.MethodBaseInvoker.InvokeWithFewArgs(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
 </StackTrace>
         </ErrorInfo>
       </Output>
     </UnitTestResult>
-    <UnitTestResult executionId="7c354f96-27a6-431c-ad53-9b0af3a44b4a" testId="a46ec870-a882-e175-b73d-4da54a764466" testName="SumMultiplesBelow(0,0)" computerName="RNSPTP059P" duration="00:00:00.0001860" startTime="2024-09-24T13:14:54.2942893+02:00" endTime="2024-09-24T13:14:54.2944752+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="7c354f96-27a6-431c-ad53-9b0af3a44b4a">
+    <UnitTestResult executionId="c715f103-61bd-4d72-8fa5-cc9c14276f30" testId="15e1d935-1f9d-54d1-c534-daaf22b6d97c" testName="SumMultiplesBelow(13,45)" computerName="CLRPTP32P" duration="00:00:00.0001530" startTime="2024-11-28T09:42:11.3439849+01:00" endTime="2024-11-28T09:42:11.3441382+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="c715f103-61bd-4d72-8fa5-cc9c14276f30">
       <Output>
         <ErrorInfo>
-          <Message>System.NotImplementedException : The method or operation is not implemented.</Message>
-          <StackTrace>   at Katas.Session._01.MultipleKata.SumMultiplesBelow(Int32 input) in C:\01-projects\apside\git\dotnet-challenge-kata-session-01\katas.session.01\Katas.Session.01\MultipleKata.cs:line 21&#xD;
-   at Katas.Session._01.Test.MultipleKataTest.SumMultiplesBelow(Int32 input, Int32 expected) in C:\01-projects\apside\git\dotnet-challenge-kata-session-01\katas.session.01\katas.session.01.test\MultipleKataTest.cs:line 23&#xD;
+          <Message>  Value: 13&#xD;
+  Expected: 45&#xD;
+  But was:  0&#xD;
+</Message>
+          <StackTrace>   at Katas.Session._01.Test.MultipleKataTest.SumMultiplesBelow(Int32 input, Int32 expected) in C:\Users\gvalentin\Documents\pers\tech\dotnet-challenge-kata-session-01\katas.session.01\katas.session.01.test\MultipleKataTest.cs:line 17&#xD;
    at InvokeStub_MultipleKataTest.SumMultiplesBelow(Object, Span`1)&#xD;
+
+1)    at Katas.Session._01.Test.MultipleKataTest.SumMultiplesBelow(Int32 input, Int32 expected) in C:\Users\gvalentin\Documents\pers\tech\dotnet-challenge-kata-session-01\katas.session.01\katas.session.01.test\MultipleKataTest.cs:line 17&#xD;
+   at InvokeStub_MultipleKataTest.SumMultiplesBelow(Object, Span`1)&#xD;
+
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="3cd8ba3b-b1aa-444f-8cd0-dd41c1e2294e" testId="f2e2bda2-ce51-4c1d-271f-71538a57d84d" testName="SumMultiplesBelow(-15,0)" computerName="CLRPTP32P" duration="00:00:00.0000040" startTime="2024-11-28T09:42:11.3438197+01:00" endTime="2024-11-28T09:42:11.3438237+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="3cd8ba3b-b1aa-444f-8cd0-dd41c1e2294e" />
+    <UnitTestResult executionId="dbae4e88-0f42-4c02-a49e-e0fc4b6c746b" testId="b0462b24-a432-4aa8-673b-28fb9bcd2cd2" testName="PositiveEvenTest(42)" computerName="CLRPTP32P" duration="00:00:00.0000900" startTime="2024-11-28T09:42:11.3196213+01:00" endTime="2024-11-28T09:42:11.3197116+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="dbae4e88-0f42-4c02-a49e-e0fc4b6c746b" />
+    <UnitTestResult executionId="91a00188-7fac-4f28-b9c2-45557f2d1693" testId="2c2d8b84-3f86-eb0e-1d49-87b351117c76" testName="ComputeMinMaxTest(&quot;92 8 70 30 12&quot;,&quot;92 8&quot;)" computerName="CLRPTP32P" duration="00:00:00.0000040" startTime="2024-11-28T09:42:11.3227804+01:00" endTime="2024-11-28T09:42:11.3227846+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="91a00188-7fac-4f28-b9c2-45557f2d1693" />
+    <UnitTestResult executionId="95bd429a-6a6b-4b17-b313-93fb03027a5a" testId="b3c6c7de-fdcd-64e4-0cb7-40ec699e9e54" testName="PositiveEvenTest(2)" computerName="CLRPTP32P" duration="00:00:00.0000470" startTime="2024-11-28T09:42:11.3195684+01:00" endTime="2024-11-28T09:42:11.3196141+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="95bd429a-6a6b-4b17-b313-93fb03027a5a" />
+    <UnitTestResult executionId="c870c108-0815-415d-adb6-8343b5823fc7" testId="70f596d3-083a-01db-aabf-4ab5a6a1f62b" testName="ReverseWordTest(&quot;survive to Drive&quot;,&quot;Drive to survive&quot;)" computerName="CLRPTP32P" duration="00:00:00.0000610" startTime="2024-11-28T09:42:11.3462222+01:00" endTime="2024-11-28T09:42:11.3462830+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="c870c108-0815-415d-adb6-8343b5823fc7">
+      <Output>
+        <ErrorInfo>
+          <Message>System.NotImplementedException : The method or operation is not implemented.</Message>
+          <StackTrace>   at Katas.Session._01.ReverseStringKata.ReverseWords(String input) in C:\Users\gvalentin\Documents\pers\tech\dotnet-challenge-kata-session-01\katas.session.01\Katas.Session.01\ReverseStringKata.cs:line 15&#xD;
+   at Katas.Session._01.Test.ReverseStringKataTest.ReverseWordTest(String input, String expected) in C:\Users\gvalentin\Documents\pers\tech\dotnet-challenge-kata-session-01\katas.session.01\katas.session.01.test\ReverseStringKataTest.cs:line 15&#xD;
+   at InvokeStub_ReverseStringKataTest.ReverseWordTest(Object, Span`1)&#xD;
    at System.Reflection.MethodBaseInvoker.InvokeWithFewArgs(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
 </StackTrace>
         </ErrorInfo>
       </Output>
     </UnitTestResult>
-    <UnitTestResult executionId="23be7a1b-3d09-40af-bff5-f07ef4d21b0e" testId="80b7bd27-8bec-73e1-d3fa-0c77ec12425e" testName="ComputeMinMaxTest(&quot;-33 68 15 52 -49&quot;,&quot;68 -49&quot;)" computerName="RNSPTP059P" duration="00:00:00.0002100" startTime="2024-09-24T13:14:54.2922155+02:00" endTime="2024-09-24T13:14:54.2924257+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="23be7a1b-3d09-40af-bff5-f07ef4d21b0e">
+    <UnitTestResult executionId="2b91729f-7a68-4652-bcc1-e54a733eddae" testId="a46ec870-a882-e175-b73d-4da54a764466" testName="SumMultiplesBelow(0,0)" computerName="CLRPTP32P" duration="00:00:00.0000120" startTime="2024-11-28T09:42:11.3436316+01:00" endTime="2024-11-28T09:42:11.3436433+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="2b91729f-7a68-4652-bcc1-e54a733eddae" />
+    <UnitTestResult executionId="a731db3c-99b6-4cae-9f57-1b36aa989d88" testId="fc361f04-2e77-9345-dc9a-c0ae25f353b0" testName="ReverseWordTest(&quot;thrones of game A&quot;,&quot;A game of thrones&quot;)" computerName="CLRPTP32P" duration="00:00:00.0000590" startTime="2024-11-28T09:42:11.3462865+01:00" endTime="2024-11-28T09:42:11.3463459+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="a731db3c-99b6-4cae-9f57-1b36aa989d88">
       <Output>
         <ErrorInfo>
           <Message>System.NotImplementedException : The method or operation is not implemented.</Message>
-          <StackTrace>   at Katas.Session._01.MinMaxKata.ComputeMinMax(String input) in C:\01-projects\apside\git\dotnet-challenge-kata-session-01\katas.session.01\Katas.Session.01\MinMaxKata.cs:line 21&#xD;
-   at Katas.Session._01.Test.MinMaxKataTest.ComputeMinMaxTest(String input, String expected) in C:\01-projects\apside\git\dotnet-challenge-kata-session-01\katas.session.01\katas.session.01.test\MinMaxKataTest.cs:line 20&#xD;
-   at InvokeStub_MinMaxKataTest.ComputeMinMaxTest(Object, Span`1)&#xD;
+          <StackTrace>   at Katas.Session._01.ReverseStringKata.ReverseWords(String input) in C:\Users\gvalentin\Documents\pers\tech\dotnet-challenge-kata-session-01\katas.session.01\Katas.Session.01\ReverseStringKata.cs:line 15&#xD;
+   at Katas.Session._01.Test.ReverseStringKataTest.ReverseWordTest(String input, String expected) in C:\Users\gvalentin\Documents\pers\tech\dotnet-challenge-kata-session-01\katas.session.01\katas.session.01.test\ReverseStringKataTest.cs:line 15&#xD;
+   at InvokeStub_ReverseStringKataTest.ReverseWordTest(Object, Span`1)&#xD;
    at System.Reflection.MethodBaseInvoker.InvokeWithFewArgs(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
 </StackTrace>
         </ErrorInfo>
       </Output>
     </UnitTestResult>
-    <UnitTestResult executionId="8a459ae2-68c0-49a0-90d4-2917ef3dcd0f" testId="a23becaa-8844-8152-d67e-53559c04e557" testName="NegativeEvenTest(-42)" computerName="RNSPTP059P" duration="00:00:00.0008890" startTime="2024-09-24T13:14:54.2814393+02:00" endTime="2024-09-24T13:14:54.2823286+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="8a459ae2-68c0-49a0-90d4-2917ef3dcd0f">
+    <UnitTestResult executionId="4a864baa-0d6d-458c-ae54-670fad26af00" testId="3ca3c1e4-8ae2-0f9e-49fe-3f8d5e10dad4" testName="PositiveOddTest(7)" computerName="CLRPTP32P" duration="00:00:00.0000770" startTime="2024-11-28T09:42:11.3197761+01:00" endTime="2024-11-28T09:42:11.3198528+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="4a864baa-0d6d-458c-ae54-670fad26af00" />
+    <UnitTestResult executionId="3d721802-b9ea-4ef1-a882-f2ea4e4e2694" testId="b340dc6f-9ffc-490c-e043-bf0f3c78db88" testName="NegativeOddTest(-1)" computerName="CLRPTP32P" duration="00:00:00.0000440" startTime="2024-11-28T09:42:11.3193933+01:00" endTime="2024-11-28T09:42:11.3194367+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="3d721802-b9ea-4ef1-a882-f2ea4e4e2694" />
+    <UnitTestResult executionId="a7ac5dd9-71af-4079-9968-4c1ab5a847d0" testId="288450e0-cba2-d0b4-5940-ca946ab53c9d" testName="ComputeMinMaxTest(&quot;8 3 -5 42 -1 0 0 -9 4 7 4 -4&quot;,&quot;42 -9&quot;)" computerName="CLRPTP32P" duration="00:00:00.0020950" startTime="2024-11-28T09:42:11.3205297+01:00" endTime="2024-11-28T09:42:11.3226249+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="a7ac5dd9-71af-4079-9968-4c1ab5a847d0" />
+    <UnitTestResult executionId="ab74698d-a198-482f-a6df-f0f91c86316c" testId="2c0cf768-31a7-f8a6-dd7d-dc118fb6523e" testName="TestCase(&quot;skyr&quot;,0)" computerName="CLRPTP32P" duration="00:00:00.0047739" startTime="2024-11-28T09:42:11.3469774+01:00" endTime="2024-11-28T09:42:11.3517509+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="ab74698d-a198-482f-a6df-f0f91c86316c">
       <Output>
         <ErrorInfo>
           <Message>System.NotImplementedException : The method or operation is not implemented.</Message>
-          <StackTrace>   at Katas.Session._01.EvenOddKata.EvenOrOdd(Int32 input) in C:\01-projects\apside\git\dotnet-challenge-kata-session-01\katas.session.01\Katas.Session.01\EvenOddKata.cs:line 19&#xD;
-   at Katas.Session._01.Test.EvenOddKataTest.NegativeEvenTest(Int32 input) in C:\01-projects\apside\git\dotnet-challenge-kata-session-01\katas.session.01\katas.session.01.test\EvenOddKataTest.cs:line 37&#xD;
-   at InvokeStub_EvenOddKataTest.NegativeEvenTest(Object, Span`1)&#xD;
-   at System.Reflection.MethodBaseInvoker.InvokeWithOneArg(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+          <StackTrace>   at Katas.Session._01.VowelsKata.CountVowels(String input) in C:\Users\gvalentin\Documents\pers\tech\dotnet-challenge-kata-session-01\katas.session.01\Katas.Session.01\VowelsKata.cs:line 16&#xD;
+   at Katas.Session._01.Test.VowelsKataTest.TestCase(String input, Int32 expected) in C:\Users\gvalentin\Documents\pers\tech\dotnet-challenge-kata-session-01\katas.session.01\katas.session.01.test\VowelsKataTest.cs:line 14&#xD;
+   at InvokeStub_VowelsKataTest.TestCase(Object, Span`1)&#xD;
+   at System.Reflection.MethodBaseInvoker.InvokeWithFewArgs(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
 </StackTrace>
         </ErrorInfo>
       </Output>
     </UnitTestResult>
-    <UnitTestResult executionId="1b77c738-1fb5-4e95-b760-c3d1abc11e8a" testId="1779f1ed-c5ee-385b-6688-665358a93321" testName="PositiveOddTest(1)" computerName="RNSPTP059P" duration="00:00:00.0003650" startTime="2024-09-24T13:14:54.2871446+02:00" endTime="2024-09-24T13:14:54.2875088+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="1b77c738-1fb5-4e95-b760-c3d1abc11e8a">
+    <UnitTestResult executionId="aedf52d8-6e87-4b88-bd45-0fd73d978575" testId="227cfdb0-700a-4835-7719-513f0523ef66" testName="TestCase(&quot;clignotement&quot;,4)" computerName="CLRPTP32P" duration="00:00:00.0001910" startTime="2024-11-28T09:42:11.3466896+01:00" endTime="2024-11-28T09:42:11.3468804+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="aedf52d8-6e87-4b88-bd45-0fd73d978575">
       <Output>
         <ErrorInfo>
           <Message>System.NotImplementedException : The method or operation is not implemented.</Message>
-          <StackTrace>   at Katas.Session._01.EvenOddKata.EvenOrOdd(Int32 input) in C:\01-projects\apside\git\dotnet-challenge-kata-session-01\katas.session.01\Katas.Session.01\EvenOddKata.cs:line 19&#xD;
-   at Katas.Session._01.Test.EvenOddKataTest.PositiveOddTest(Int32 input) in C:\01-projects\apside\git\dotnet-challenge-kata-session-01\katas.session.01\katas.session.01.test\EvenOddKataTest.cs:line 16&#xD;
+          <StackTrace>   at Katas.Session._01.VowelsKata.CountVowels(String input) in C:\Users\gvalentin\Documents\pers\tech\dotnet-challenge-kata-session-01\katas.session.01\Katas.Session.01\VowelsKata.cs:line 16&#xD;
+   at Katas.Session._01.Test.VowelsKataTest.TestCase(String input, Int32 expected) in C:\Users\gvalentin\Documents\pers\tech\dotnet-challenge-kata-session-01\katas.session.01\katas.session.01.test\VowelsKataTest.cs:line 14&#xD;
+   at InvokeStub_VowelsKataTest.TestCase(Object, Span`1)&#xD;
+   at System.Reflection.MethodBaseInvoker.InvokeWithFewArgs(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="ada7a02d-ae28-4e9c-b6be-02c5cd629c97" testId="40b625bb-e8d4-1859-67f4-86f1b245359e" testName="ComputeMinMaxTest(&quot;-21 -20 -6 70 -7&quot;,&quot;70 -21&quot;)" computerName="CLRPTP32P" duration="00:00:00.0000050" startTime="2024-11-28T09:42:11.3227727+01:00" endTime="2024-11-28T09:42:11.3227780+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="ada7a02d-ae28-4e9c-b6be-02c5cd629c97" />
+    <UnitTestResult executionId="f052f1f0-c152-48d8-b5a2-ea0ca3046ba9" testId="1779f1ed-c5ee-385b-6688-665358a93321" testName="PositiveOddTest(1)" computerName="CLRPTP32P" duration="00:00:00.0000400" startTime="2024-11-28T09:42:11.3197324+01:00" endTime="2024-11-28T09:42:11.3197722+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="f052f1f0-c152-48d8-b5a2-ea0ca3046ba9" />
+    <UnitTestResult executionId="c6433ac6-6e25-4d96-9b16-aef31f65c64f" testId="21a33686-5f6a-6667-1f47-f4937c8e479b" testName="SumMultiplesBelow(10,23)" computerName="CLRPTP32P" duration="00:00:00.0198950" startTime="2024-11-28T09:42:11.3228810+01:00" endTime="2024-11-28T09:42:11.3427756+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="c6433ac6-6e25-4d96-9b16-aef31f65c64f">
+      <Output>
+        <ErrorInfo>
+          <Message>  Value: 10&#xD;
+  Expected: 23&#xD;
+  But was:  45&#xD;
+</Message>
+          <StackTrace>   at Katas.Session._01.Test.MultipleKataTest.SumMultiplesBelow(Int32 input, Int32 expected) in C:\Users\gvalentin\Documents\pers\tech\dotnet-challenge-kata-session-01\katas.session.01\katas.session.01.test\MultipleKataTest.cs:line 17&#xD;
+
+1)    at Katas.Session._01.Test.MultipleKataTest.SumMultiplesBelow(Int32 input, Int32 expected) in C:\Users\gvalentin\Documents\pers\tech\dotnet-challenge-kata-session-01\katas.session.01\katas.session.01.test\MultipleKataTest.cs:line 17&#xD;
+
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="0167c534-5fd1-451e-a013-c1419e60f35b" testId="e28f2492-0aad-6fad-7143-714e599eada8" testName="SumMultiplesBelow(20,78)" computerName="CLRPTP32P" duration="00:00:00.0005050" startTime="2024-11-28T09:42:11.3428430+01:00" endTime="2024-11-28T09:42:11.3433478+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="0167c534-5fd1-451e-a013-c1419e60f35b">
+      <Output>
+        <ErrorInfo>
+          <Message>  Value: 20&#xD;
+  Expected: 78&#xD;
+  But was:  190&#xD;
+</Message>
+          <StackTrace>   at Katas.Session._01.Test.MultipleKataTest.SumMultiplesBelow(Int32 input, Int32 expected) in C:\Users\gvalentin\Documents\pers\tech\dotnet-challenge-kata-session-01\katas.session.01\katas.session.01.test\MultipleKataTest.cs:line 17&#xD;
+   at InvokeStub_MultipleKataTest.SumMultiplesBelow(Object, Span`1)&#xD;
+
+1)    at Katas.Session._01.Test.MultipleKataTest.SumMultiplesBelow(Int32 input, Int32 expected) in C:\Users\gvalentin\Documents\pers\tech\dotnet-challenge-kata-session-01\katas.session.01\katas.session.01.test\MultipleKataTest.cs:line 17&#xD;
+   at InvokeStub_MultipleKataTest.SumMultiplesBelow(Object, Span`1)&#xD;
+
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="8b916dda-38ee-4b5e-bcbe-5afcf09a85d3" testId="a23becaa-8844-8152-d67e-53559c04e557" testName="NegativeEvenTest(-42)" computerName="CLRPTP32P" duration="00:00:00.0002010" startTime="2024-11-28T09:42:11.3183143+01:00" endTime="2024-11-28T09:42:11.3185157+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="8b916dda-38ee-4b5e-bcbe-5afcf09a85d3" />
+    <UnitTestResult executionId="0ddbd8d6-3f80-4fe4-8004-a8f545bda534" testId="52cf92fa-5962-b025-9ce0-9c62e763192b" testName="ReverseWordTest(&quot;Hello World&quot;,&quot;World Hello&quot;)" computerName="CLRPTP32P" duration="00:00:00.0016290" startTime="2024-11-28T09:42:11.3442347+01:00" endTime="2024-11-28T09:42:11.3458633+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="0ddbd8d6-3f80-4fe4-8004-a8f545bda534">
+      <Output>
+        <ErrorInfo>
+          <Message>System.NotImplementedException : The method or operation is not implemented.</Message>
+          <StackTrace>   at Katas.Session._01.ReverseStringKata.ReverseWords(String input) in C:\Users\gvalentin\Documents\pers\tech\dotnet-challenge-kata-session-01\katas.session.01\Katas.Session.01\ReverseStringKata.cs:line 15&#xD;
+   at Katas.Session._01.Test.ReverseStringKataTest.ReverseWordTest(String input, String expected) in C:\Users\gvalentin\Documents\pers\tech\dotnet-challenge-kata-session-01\katas.session.01\katas.session.01.test\ReverseStringKataTest.cs:line 15&#xD;
    at System.RuntimeMethodHandle.InvokeMethod(Object target, Void** arguments, Signature sig, Boolean isConstructor)&#xD;
    at System.Reflection.MethodBaseInvoker.InvokeDirectByRefWithFewArgs(Object obj, Span`1 copyOfArgs, BindingFlags invokeAttr)
 </StackTrace>
         </ErrorInfo>
       </Output>
     </UnitTestResult>
-    <UnitTestResult executionId="aade854c-caef-4e86-93ee-62fbc488d910" testId="a08c30b3-b67c-808a-b83c-32648d07de90" testName="ComputeMinMaxTest(&quot;1 2 3&quot;,&quot;3 1&quot;)" computerName="RNSPTP059P" duration="00:00:00.0005300" startTime="2024-09-24T13:14:54.2909825+02:00" endTime="2024-09-24T13:14:54.2915117+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="aade854c-caef-4e86-93ee-62fbc488d910">
+    <UnitTestResult executionId="8b61e1a3-8239-4273-b904-4f9d4ceee992" testId="b099626a-07ed-ca16-e547-15698d940428" testName="NegativeEvenTest(-2)" computerName="CLRPTP32P" duration="00:00:00.0049680" startTime="2024-11-28T09:42:11.3122591+01:00" endTime="2024-11-28T09:42:11.3171468+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="8b61e1a3-8239-4273-b904-4f9d4ceee992" />
+    <UnitTestResult executionId="403c7ca0-2014-458e-b0e2-33d5d9b70098" testId="6eee214f-7716-45cb-53a1-48b743f4ebf3" testName="TestCase(&quot;transatlantique&quot;,6)" computerName="CLRPTP32P" duration="00:00:00.0001780" startTime="2024-11-28T09:42:11.3465054+01:00" endTime="2024-11-28T09:42:11.3466829+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="403c7ca0-2014-458e-b0e2-33d5d9b70098">
       <Output>
         <ErrorInfo>
           <Message>System.NotImplementedException : The method or operation is not implemented.</Message>
-          <StackTrace>   at Katas.Session._01.MinMaxKata.ComputeMinMax(String input) in C:\01-projects\apside\git\dotnet-challenge-kata-session-01\katas.session.01\Katas.Session.01\MinMaxKata.cs:line 21&#xD;
-   at Katas.Session._01.Test.MinMaxKataTest.ComputeMinMaxTest(String input, String expected) in C:\01-projects\apside\git\dotnet-challenge-kata-session-01\katas.session.01\katas.session.01.test\MinMaxKataTest.cs:line 20&#xD;
-   at InvokeStub_MinMaxKataTest.ComputeMinMaxTest(Object, Span`1)&#xD;
-   at System.Reflection.MethodBaseInvoker.InvokeWithFewArgs(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+          <StackTrace>   at Katas.Session._01.VowelsKata.CountVowels(String input) in C:\Users\gvalentin\Documents\pers\tech\dotnet-challenge-kata-session-01\katas.session.01\Katas.Session.01\VowelsKata.cs:line 16&#xD;
+   at Katas.Session._01.Test.VowelsKataTest.TestCase(String input, Int32 expected) in C:\Users\gvalentin\Documents\pers\tech\dotnet-challenge-kata-session-01\katas.session.01\katas.session.01.test\VowelsKataTest.cs:line 14&#xD;
+   at System.RuntimeMethodHandle.InvokeMethod(Object target, Void** arguments, Signature sig, Boolean isConstructor)&#xD;
+   at System.Reflection.MethodBaseInvoker.InvokeDirectByRefWithFewArgs(Object obj, Span`1 copyOfArgs, BindingFlags invokeAttr)
 </StackTrace>
         </ErrorInfo>
       </Output>
     </UnitTestResult>
-    <UnitTestResult executionId="97cd5990-2251-4dd1-9623-75546dfde74f" testId="e1ef4125-2652-d32f-12a7-1c14ad0e7994" testName="SumMultiplesBelow(13,35)" computerName="RNSPTP059P" duration="00:00:00.0002300" startTime="2024-09-24T13:14:54.2959628+02:00" endTime="2024-09-24T13:14:54.2961929+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="97cd5990-2251-4dd1-9623-75546dfde74f">
-      <Output>
-        <ErrorInfo>
-          <Message>System.NotImplementedException : The method or operation is not implemented.</Message>
-          <StackTrace>   at Katas.Session._01.MultipleKata.SumMultiplesBelow(Int32 input) in C:\01-projects\apside\git\dotnet-challenge-kata-session-01\katas.session.01\Katas.Session.01\MultipleKata.cs:line 21&#xD;
-   at Katas.Session._01.Test.MultipleKataTest.SumMultiplesBelow(Int32 input, Int32 expected) in C:\01-projects\apside\git\dotnet-challenge-kata-session-01\katas.session.01\katas.session.01.test\MultipleKataTest.cs:line 23&#xD;
-   at InvokeStub_MultipleKataTest.SumMultiplesBelow(Object, Span`1)&#xD;
-   at System.Reflection.MethodBaseInvoker.InvokeWithFewArgs(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
-</StackTrace>
-        </ErrorInfo>
-      </Output>
-    </UnitTestResult>
+    <UnitTestResult executionId="d56cff19-2a91-4267-878a-2b3d48936ff3" testId="a08c30b3-b67c-808a-b83c-32648d07de90" testName="ComputeMinMaxTest(&quot;1 2 3&quot;,&quot;3 1&quot;)" computerName="CLRPTP32P" duration="00:00:00.0001150" startTime="2024-11-28T09:42:11.3226334+01:00" endTime="2024-11-28T09:42:11.3227481+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="d56cff19-2a91-4267-878a-2b3d48936ff3" />
   </Results>
   <TestDefinitions>
-    <UnitTest name="NegativeOddTest(-1)" storage="c:\01-projects\apside\git\dotnet-challenge-kata-session-01\katas.session.01\katas.session.01.test\bin\debug\net8.0\katas.session.01.test.dll" id="b340dc6f-9ffc-490c-e043-bf0f3c78db88">
-      <Execution id="ce1fe8e0-436c-46d8-9d31-0a0d9c394508" />
-      <TestMethod codeBase="C:\01-projects\apside\git\dotnet-challenge-kata-session-01\katas.session.01\katas.session.01.test\bin\Debug\net8.0\Katas.Session.01.Test.dll" adapterTypeName="executor://nunit3testexecutor/" className="Katas.Session._01.Test.EvenOddKataTest" name="NegativeOddTest(-1)" />
+    <UnitTest name="NegativeOddTest(-1)" storage="c:\users\gvalentin\documents\pers\tech\dotnet-challenge-kata-session-01\katas.session.01\katas.session.01.test\bin\debug\net8.0\katas.session.01.test.dll" id="b340dc6f-9ffc-490c-e043-bf0f3c78db88">
+      <Execution id="3d721802-b9ea-4ef1-a882-f2ea4e4e2694" />
+      <TestMethod codeBase="C:\Users\gvalentin\Documents\pers\tech\dotnet-challenge-kata-session-01\katas.session.01\katas.session.01.test\bin\Debug\net8.0\Katas.Session.01.Test.dll" adapterTypeName="executor://nunit3testexecutor/" className="Katas.Session._01.Test.EvenOddKataTest" name="NegativeOddTest(-1)" />
     </UnitTest>
-    <UnitTest name="PositiveOddTest(1)" storage="c:\01-projects\apside\git\dotnet-challenge-kata-session-01\katas.session.01\katas.session.01.test\bin\debug\net8.0\katas.session.01.test.dll" id="1779f1ed-c5ee-385b-6688-665358a93321">
-      <Execution id="1b77c738-1fb5-4e95-b760-c3d1abc11e8a" />
-      <TestMethod codeBase="C:\01-projects\apside\git\dotnet-challenge-kata-session-01\katas.session.01\katas.session.01.test\bin\Debug\net8.0\Katas.Session.01.Test.dll" adapterTypeName="executor://nunit3testexecutor/" className="Katas.Session._01.Test.EvenOddKataTest" name="PositiveOddTest(1)" />
+    <UnitTest name="PositiveOddTest(1)" storage="c:\users\gvalentin\documents\pers\tech\dotnet-challenge-kata-session-01\katas.session.01\katas.session.01.test\bin\debug\net8.0\katas.session.01.test.dll" id="1779f1ed-c5ee-385b-6688-665358a93321">
+      <Execution id="f052f1f0-c152-48d8-b5a2-ea0ca3046ba9" />
+      <TestMethod codeBase="C:\Users\gvalentin\Documents\pers\tech\dotnet-challenge-kata-session-01\katas.session.01\katas.session.01.test\bin\Debug\net8.0\Katas.Session.01.Test.dll" adapterTypeName="executor://nunit3testexecutor/" className="Katas.Session._01.Test.EvenOddKataTest" name="PositiveOddTest(1)" />
     </UnitTest>
-    <UnitTest name="SumMultiplesBelow(2,0)" storage="c:\01-projects\apside\git\dotnet-challenge-kata-session-01\katas.session.01\katas.session.01.test\bin\debug\net8.0\katas.session.01.test.dll" id="3b358dac-a42d-0b47-7a51-d3cc4c3a3b0d">
-      <Execution id="898171d3-cc35-4a91-8257-0bf52409d90a" />
-      <TestMethod codeBase="C:\01-projects\apside\git\dotnet-challenge-kata-session-01\katas.session.01\katas.session.01.test\bin\Debug\net8.0\Katas.Session.01.Test.dll" adapterTypeName="executor://nunit3testexecutor/" className="Katas.Session._01.Test.MultipleKataTest" name="SumMultiplesBelow(2,0)" />
+    <UnitTest name="SumMultiplesBelow(2,0)" storage="c:\users\gvalentin\documents\pers\tech\dotnet-challenge-kata-session-01\katas.session.01\katas.session.01.test\bin\debug\net8.0\katas.session.01.test.dll" id="3b358dac-a42d-0b47-7a51-d3cc4c3a3b0d">
+      <Execution id="d71cb71a-db1c-4495-abae-142f8a2ace53" />
+      <TestMethod codeBase="C:\Users\gvalentin\Documents\pers\tech\dotnet-challenge-kata-session-01\katas.session.01\katas.session.01.test\bin\Debug\net8.0\Katas.Session.01.Test.dll" adapterTypeName="executor://nunit3testexecutor/" className="Katas.Session._01.Test.MultipleKataTest" name="SumMultiplesBelow(2,0)" />
     </UnitTest>
-    <UnitTest name="SumMultiplesBelow(13,35)" storage="c:\01-projects\apside\git\dotnet-challenge-kata-session-01\katas.session.01\katas.session.01.test\bin\debug\net8.0\katas.session.01.test.dll" id="e1ef4125-2652-d32f-12a7-1c14ad0e7994">
-      <Execution id="97cd5990-2251-4dd1-9623-75546dfde74f" />
-      <TestMethod codeBase="C:\01-projects\apside\git\dotnet-challenge-kata-session-01\katas.session.01\katas.session.01.test\bin\Debug\net8.0\Katas.Session.01.Test.dll" adapterTypeName="executor://nunit3testexecutor/" className="Katas.Session._01.Test.MultipleKataTest" name="SumMultiplesBelow(13,35)" />
+    <UnitTest name="ComputeMinMaxTest(&quot;1 2 3&quot;,&quot;3 1&quot;)" storage="c:\users\gvalentin\documents\pers\tech\dotnet-challenge-kata-session-01\katas.session.01\katas.session.01.test\bin\debug\net8.0\katas.session.01.test.dll" id="a08c30b3-b67c-808a-b83c-32648d07de90">
+      <Execution id="d56cff19-2a91-4267-878a-2b3d48936ff3" />
+      <TestMethod codeBase="C:\Users\gvalentin\Documents\pers\tech\dotnet-challenge-kata-session-01\katas.session.01\katas.session.01.test\bin\Debug\net8.0\Katas.Session.01.Test.dll" adapterTypeName="executor://nunit3testexecutor/" className="Katas.Session._01.Test.MinMaxKataTest" name="ComputeMinMaxTest(&quot;1 2 3&quot;,&quot;3 1&quot;)" />
     </UnitTest>
-    <UnitTest name="ComputeMinMaxTest(&quot;1 2 3&quot;,&quot;3 1&quot;)" storage="c:\01-projects\apside\git\dotnet-challenge-kata-session-01\katas.session.01\katas.session.01.test\bin\debug\net8.0\katas.session.01.test.dll" id="a08c30b3-b67c-808a-b83c-32648d07de90">
-      <Execution id="aade854c-caef-4e86-93ee-62fbc488d910" />
-      <TestMethod codeBase="C:\01-projects\apside\git\dotnet-challenge-kata-session-01\katas.session.01\katas.session.01.test\bin\Debug\net8.0\Katas.Session.01.Test.dll" adapterTypeName="executor://nunit3testexecutor/" className="Katas.Session._01.Test.MinMaxKataTest" name="ComputeMinMaxTest(&quot;1 2 3&quot;,&quot;3 1&quot;)" />
+    <UnitTest name="SumMultiplesBelow(10,23)" storage="c:\users\gvalentin\documents\pers\tech\dotnet-challenge-kata-session-01\katas.session.01\katas.session.01.test\bin\debug\net8.0\katas.session.01.test.dll" id="21a33686-5f6a-6667-1f47-f4937c8e479b">
+      <Execution id="c6433ac6-6e25-4d96-9b16-aef31f65c64f" />
+      <TestMethod codeBase="C:\Users\gvalentin\Documents\pers\tech\dotnet-challenge-kata-session-01\katas.session.01\katas.session.01.test\bin\Debug\net8.0\Katas.Session.01.Test.dll" adapterTypeName="executor://nunit3testexecutor/" className="Katas.Session._01.Test.MultipleKataTest" name="SumMultiplesBelow(10,23)" />
     </UnitTest>
-    <UnitTest name="SumMultiplesBelow(15,50)" storage="c:\01-projects\apside\git\dotnet-challenge-kata-session-01\katas.session.01\katas.session.01.test\bin\debug\net8.0\katas.session.01.test.dll" id="2356662f-dfe9-8abc-13fc-6afd5d4039c1">
-      <Execution id="63626f7c-145c-4668-b0cf-8a25a1dc8a03" />
-      <TestMethod codeBase="C:\01-projects\apside\git\dotnet-challenge-kata-session-01\katas.session.01\katas.session.01.test\bin\Debug\net8.0\Katas.Session.01.Test.dll" adapterTypeName="executor://nunit3testexecutor/" className="Katas.Session._01.Test.MultipleKataTest" name="SumMultiplesBelow(15,50)" />
+    <UnitTest name="PositiveOddTest(7)" storage="c:\users\gvalentin\documents\pers\tech\dotnet-challenge-kata-session-01\katas.session.01\katas.session.01.test\bin\debug\net8.0\katas.session.01.test.dll" id="3ca3c1e4-8ae2-0f9e-49fe-3f8d5e10dad4">
+      <Execution id="4a864baa-0d6d-458c-ae54-670fad26af00" />
+      <TestMethod codeBase="C:\Users\gvalentin\Documents\pers\tech\dotnet-challenge-kata-session-01\katas.session.01\katas.session.01.test\bin\Debug\net8.0\Katas.Session.01.Test.dll" adapterTypeName="executor://nunit3testexecutor/" className="Katas.Session._01.Test.EvenOddKataTest" name="PositiveOddTest(7)" />
     </UnitTest>
-    <UnitTest name="SumMultiplesBelow(10,23)" storage="c:\01-projects\apside\git\dotnet-challenge-kata-session-01\katas.session.01\katas.session.01.test\bin\debug\net8.0\katas.session.01.test.dll" id="21a33686-5f6a-6667-1f47-f4937c8e479b">
-      <Execution id="12b4cc65-42ed-4a88-9f9a-c889fe981915" />
-      <TestMethod codeBase="C:\01-projects\apside\git\dotnet-challenge-kata-session-01\katas.session.01\katas.session.01.test\bin\Debug\net8.0\Katas.Session.01.Test.dll" adapterTypeName="executor://nunit3testexecutor/" className="Katas.Session._01.Test.MultipleKataTest" name="SumMultiplesBelow(10,23)" />
+    <UnitTest name="ZeroIsEvenTest" storage="c:\users\gvalentin\documents\pers\tech\dotnet-challenge-kata-session-01\katas.session.01\katas.session.01.test\bin\debug\net8.0\katas.session.01.test.dll" id="627c1473-3190-fed7-4956-baa8983d7cff">
+      <Execution id="fa359d9b-8b05-469a-94e8-774a762b606a" />
+      <TestMethod codeBase="C:\Users\gvalentin\Documents\pers\tech\dotnet-challenge-kata-session-01\katas.session.01\katas.session.01.test\bin\Debug\net8.0\Katas.Session.01.Test.dll" adapterTypeName="executor://nunit3testexecutor/" className="Katas.Session._01.Test.EvenOddKataTest" name="ZeroIsEvenTest" />
     </UnitTest>
-    <UnitTest name="PositiveOddTest(7)" storage="c:\01-projects\apside\git\dotnet-challenge-kata-session-01\katas.session.01\katas.session.01.test\bin\debug\net8.0\katas.session.01.test.dll" id="3ca3c1e4-8ae2-0f9e-49fe-3f8d5e10dad4">
-      <Execution id="07624bab-99a9-41f9-8249-162cfed856e8" />
-      <TestMethod codeBase="C:\01-projects\apside\git\dotnet-challenge-kata-session-01\katas.session.01\katas.session.01.test\bin\Debug\net8.0\Katas.Session.01.Test.dll" adapterTypeName="executor://nunit3testexecutor/" className="Katas.Session._01.Test.EvenOddKataTest" name="PositiveOddTest(7)" />
+    <UnitTest name="ReverseWordTest(&quot;Hello World&quot;,&quot;World Hello&quot;)" storage="c:\users\gvalentin\documents\pers\tech\dotnet-challenge-kata-session-01\katas.session.01\katas.session.01.test\bin\debug\net8.0\katas.session.01.test.dll" id="52cf92fa-5962-b025-9ce0-9c62e763192b">
+      <Execution id="0ddbd8d6-3f80-4fe4-8004-a8f545bda534" />
+      <TestMethod codeBase="C:\Users\gvalentin\Documents\pers\tech\dotnet-challenge-kata-session-01\katas.session.01\katas.session.01.test\bin\Debug\net8.0\Katas.Session.01.Test.dll" adapterTypeName="executor://nunit3testexecutor/" className="Katas.Session._01.Test.ReverseStringKataTest" name="ReverseWordTest(&quot;Hello World&quot;,&quot;World Hello&quot;)" />
     </UnitTest>
-    <UnitTest name="ZeroIsEvenTest" storage="c:\01-projects\apside\git\dotnet-challenge-kata-session-01\katas.session.01\katas.session.01.test\bin\debug\net8.0\katas.session.01.test.dll" id="627c1473-3190-fed7-4956-baa8983d7cff">
-      <Execution id="8e8d46f8-042a-4040-ab13-7dd2aa4ab8cd" />
-      <TestMethod codeBase="C:\01-projects\apside\git\dotnet-challenge-kata-session-01\katas.session.01\katas.session.01.test\bin\Debug\net8.0\Katas.Session.01.Test.dll" adapterTypeName="executor://nunit3testexecutor/" className="Katas.Session._01.Test.EvenOddKataTest" name="ZeroIsEvenTest" />
+    <UnitTest name="SumMultiplesBelow(15,45)" storage="c:\users\gvalentin\documents\pers\tech\dotnet-challenge-kata-session-01\katas.session.01\katas.session.01.test\bin\debug\net8.0\katas.session.01.test.dll" id="f77d222a-3348-27d1-c187-6e3f9f0b520c">
+      <Execution id="71649f40-b544-4e0e-88e4-b1a041ed6177" />
+      <TestMethod codeBase="C:\Users\gvalentin\Documents\pers\tech\dotnet-challenge-kata-session-01\katas.session.01\katas.session.01.test\bin\Debug\net8.0\Katas.Session.01.Test.dll" adapterTypeName="executor://nunit3testexecutor/" className="Katas.Session._01.Test.MultipleKataTest" name="SumMultiplesBelow(15,45)" />
     </UnitTest>
-    <UnitTest name="ReverseWordTest(&quot;Hello World&quot;,&quot;World Hello&quot;)" storage="c:\01-projects\apside\git\dotnet-challenge-kata-session-01\katas.session.01\katas.session.01.test\bin\debug\net8.0\katas.session.01.test.dll" id="52cf92fa-5962-b025-9ce0-9c62e763192b">
-      <Execution id="ab76fbea-f445-4aa7-9c66-839fee5142c8" />
-      <TestMethod codeBase="C:\01-projects\apside\git\dotnet-challenge-kata-session-01\katas.session.01\katas.session.01.test\bin\Debug\net8.0\Katas.Session.01.Test.dll" adapterTypeName="executor://nunit3testexecutor/" className="Katas.Session._01.Test.ReverseStringKataTest" name="ReverseWordTest(&quot;Hello World&quot;,&quot;World Hello&quot;)" />
+    <UnitTest name="SumMultiplesBelow(8,14)" storage="c:\users\gvalentin\documents\pers\tech\dotnet-challenge-kata-session-01\katas.session.01\katas.session.01.test\bin\debug\net8.0\katas.session.01.test.dll" id="fc11d4de-b0d1-1c1d-68fe-caef1640c414">
+      <Execution id="1fa3c357-c4b0-48b1-9cde-e0a35fe68027" />
+      <TestMethod codeBase="C:\Users\gvalentin\Documents\pers\tech\dotnet-challenge-kata-session-01\katas.session.01\katas.session.01.test\bin\Debug\net8.0\Katas.Session.01.Test.dll" adapterTypeName="executor://nunit3testexecutor/" className="Katas.Session._01.Test.MultipleKataTest" name="SumMultiplesBelow(8,14)" />
     </UnitTest>
-    <UnitTest name="SumMultiplesBelow(8,14)" storage="c:\01-projects\apside\git\dotnet-challenge-kata-session-01\katas.session.01\katas.session.01.test\bin\debug\net8.0\katas.session.01.test.dll" id="fc11d4de-b0d1-1c1d-68fe-caef1640c414">
-      <Execution id="63264746-775e-4e06-8048-9da7009793e7" />
-      <TestMethod codeBase="C:\01-projects\apside\git\dotnet-challenge-kata-session-01\katas.session.01\katas.session.01.test\bin\Debug\net8.0\Katas.Session.01.Test.dll" adapterTypeName="executor://nunit3testexecutor/" className="Katas.Session._01.Test.MultipleKataTest" name="SumMultiplesBelow(8,14)" />
+    <UnitTest name="ReverseWordTest(&quot;L'hymne de nos campagnes&quot;,&quot;campagnes nos de L'hymne&quot;)" storage="c:\users\gvalentin\documents\pers\tech\dotnet-challenge-kata-session-01\katas.session.01\katas.session.01.test\bin\debug\net8.0\katas.session.01.test.dll" id="47def0c6-3498-ef1e-0e9a-d4c16878107d">
+      <Execution id="71ad8323-fd20-49fc-bcea-64228bfef1d4" />
+      <TestMethod codeBase="C:\Users\gvalentin\Documents\pers\tech\dotnet-challenge-kata-session-01\katas.session.01\katas.session.01.test\bin\Debug\net8.0\Katas.Session.01.Test.dll" adapterTypeName="executor://nunit3testexecutor/" className="Katas.Session._01.Test.ReverseStringKataTest" name="ReverseWordTest(&quot;L'hymne de nos campagnes&quot;,&quot;campagnes nos de L'hymne&quot;)" />
     </UnitTest>
-    <UnitTest name="ReverseWordTest(&quot;L'hymne de nos campagnes&quot;,&quot;campagnes nos de L'hymne&quot;)" storage="c:\01-projects\apside\git\dotnet-challenge-kata-session-01\katas.session.01\katas.session.01.test\bin\debug\net8.0\katas.session.01.test.dll" id="47def0c6-3498-ef1e-0e9a-d4c16878107d">
-      <Execution id="909dae5a-40bc-41c8-90e5-f3984ff8b51b" />
-      <TestMethod codeBase="C:\01-projects\apside\git\dotnet-challenge-kata-session-01\katas.session.01\katas.session.01.test\bin\Debug\net8.0\Katas.Session.01.Test.dll" adapterTypeName="executor://nunit3testexecutor/" className="Katas.Session._01.Test.ReverseStringKataTest" name="ReverseWordTest(&quot;L'hymne de nos campagnes&quot;,&quot;campagnes nos de L'hymne&quot;)" />
+    <UnitTest name="ReverseWordTest(&quot;There. Hi&quot;,&quot;Hi There.&quot;)" storage="c:\users\gvalentin\documents\pers\tech\dotnet-challenge-kata-session-01\katas.session.01\katas.session.01.test\bin\debug\net8.0\katas.session.01.test.dll" id="d30c91b2-fc8f-3067-b4a5-03536a4c161c">
+      <Execution id="544403a9-4ba7-45ab-b5f2-06fe496c8905" />
+      <TestMethod codeBase="C:\Users\gvalentin\Documents\pers\tech\dotnet-challenge-kata-session-01\katas.session.01\katas.session.01.test\bin\Debug\net8.0\Katas.Session.01.Test.dll" adapterTypeName="executor://nunit3testexecutor/" className="Katas.Session._01.Test.ReverseStringKataTest" name="ReverseWordTest(&quot;There. Hi&quot;,&quot;Hi There.&quot;)" />
     </UnitTest>
-    <UnitTest name="ReverseWordTest(&quot;There. Hi&quot;,&quot;Hi There.&quot;)" storage="c:\01-projects\apside\git\dotnet-challenge-kata-session-01\katas.session.01\katas.session.01.test\bin\debug\net8.0\katas.session.01.test.dll" id="d30c91b2-fc8f-3067-b4a5-03536a4c161c">
-      <Execution id="d684ee18-bc19-430c-8f4a-9ebb3a53f802" />
-      <TestMethod codeBase="C:\01-projects\apside\git\dotnet-challenge-kata-session-01\katas.session.01\katas.session.01.test\bin\Debug\net8.0\Katas.Session.01.Test.dll" adapterTypeName="executor://nunit3testexecutor/" className="Katas.Session._01.Test.ReverseStringKataTest" name="ReverseWordTest(&quot;There. Hi&quot;,&quot;Hi There.&quot;)" />
+    <UnitTest name="ReverseWordTest(&quot;thrones of game A&quot;,&quot;A game of thrones&quot;)" storage="c:\users\gvalentin\documents\pers\tech\dotnet-challenge-kata-session-01\katas.session.01\katas.session.01.test\bin\debug\net8.0\katas.session.01.test.dll" id="fc361f04-2e77-9345-dc9a-c0ae25f353b0">
+      <Execution id="a731db3c-99b6-4cae-9f57-1b36aa989d88" />
+      <TestMethod codeBase="C:\Users\gvalentin\Documents\pers\tech\dotnet-challenge-kata-session-01\katas.session.01\katas.session.01.test\bin\Debug\net8.0\Katas.Session.01.Test.dll" adapterTypeName="executor://nunit3testexecutor/" className="Katas.Session._01.Test.ReverseStringKataTest" name="ReverseWordTest(&quot;thrones of game A&quot;,&quot;A game of thrones&quot;)" />
     </UnitTest>
-    <UnitTest name="ReverseWordTest(&quot;thrones of game A&quot;,&quot;A game of thrones&quot;)" storage="c:\01-projects\apside\git\dotnet-challenge-kata-session-01\katas.session.01\katas.session.01.test\bin\debug\net8.0\katas.session.01.test.dll" id="fc361f04-2e77-9345-dc9a-c0ae25f353b0">
-      <Execution id="dd8a4024-06fc-40bf-9a3f-5109a54a7106" />
-      <TestMethod codeBase="C:\01-projects\apside\git\dotnet-challenge-kata-session-01\katas.session.01\katas.session.01.test\bin\Debug\net8.0\Katas.Session.01.Test.dll" adapterTypeName="executor://nunit3testexecutor/" className="Katas.Session._01.Test.ReverseStringKataTest" name="ReverseWordTest(&quot;thrones of game A&quot;,&quot;A game of thrones&quot;)" />
+    <UnitTest name="PositiveEvenTest(42)" storage="c:\users\gvalentin\documents\pers\tech\dotnet-challenge-kata-session-01\katas.session.01\katas.session.01.test\bin\debug\net8.0\katas.session.01.test.dll" id="b0462b24-a432-4aa8-673b-28fb9bcd2cd2">
+      <Execution id="dbae4e88-0f42-4c02-a49e-e0fc4b6c746b" />
+      <TestMethod codeBase="C:\Users\gvalentin\Documents\pers\tech\dotnet-challenge-kata-session-01\katas.session.01\katas.session.01.test\bin\Debug\net8.0\Katas.Session.01.Test.dll" adapterTypeName="executor://nunit3testexecutor/" className="Katas.Session._01.Test.EvenOddKataTest" name="PositiveEvenTest(42)" />
     </UnitTest>
-    <UnitTest name="PositiveEvenTest(42)" storage="c:\01-projects\apside\git\dotnet-challenge-kata-session-01\katas.session.01\katas.session.01.test\bin\debug\net8.0\katas.session.01.test.dll" id="b0462b24-a432-4aa8-673b-28fb9bcd2cd2">
-      <Execution id="5ef05c93-4c44-4161-a6a5-95b751c33dad" />
-      <TestMethod codeBase="C:\01-projects\apside\git\dotnet-challenge-kata-session-01\katas.session.01\katas.session.01.test\bin\Debug\net8.0\Katas.Session.01.Test.dll" adapterTypeName="executor://nunit3testexecutor/" className="Katas.Session._01.Test.EvenOddKataTest" name="PositiveEvenTest(42)" />
+    <UnitTest name="ComputeMinMaxTest(&quot;-21 -20 -6 70 -7&quot;,&quot;70 -21&quot;)" storage="c:\users\gvalentin\documents\pers\tech\dotnet-challenge-kata-session-01\katas.session.01\katas.session.01.test\bin\debug\net8.0\katas.session.01.test.dll" id="40b625bb-e8d4-1859-67f4-86f1b245359e">
+      <Execution id="ada7a02d-ae28-4e9c-b6be-02c5cd629c97" />
+      <TestMethod codeBase="C:\Users\gvalentin\Documents\pers\tech\dotnet-challenge-kata-session-01\katas.session.01\katas.session.01.test\bin\Debug\net8.0\Katas.Session.01.Test.dll" adapterTypeName="executor://nunit3testexecutor/" className="Katas.Session._01.Test.MinMaxKataTest" name="ComputeMinMaxTest(&quot;-21 -20 -6 70 -7&quot;,&quot;70 -21&quot;)" />
     </UnitTest>
-    <UnitTest name="ComputeMinMaxTest(&quot;-21 -20 -6 70 -7&quot;,&quot;70 -21&quot;)" storage="c:\01-projects\apside\git\dotnet-challenge-kata-session-01\katas.session.01\katas.session.01.test\bin\debug\net8.0\katas.session.01.test.dll" id="40b625bb-e8d4-1859-67f4-86f1b245359e">
-      <Execution id="03e60e59-dee0-4976-a7c7-3762394e9ff4" />
-      <TestMethod codeBase="C:\01-projects\apside\git\dotnet-challenge-kata-session-01\katas.session.01\katas.session.01.test\bin\Debug\net8.0\Katas.Session.01.Test.dll" adapterTypeName="executor://nunit3testexecutor/" className="Katas.Session._01.Test.MinMaxKataTest" name="ComputeMinMaxTest(&quot;-21 -20 -6 70 -7&quot;,&quot;70 -21&quot;)" />
+    <UnitTest name="SumMultiplesBelow(0,0)" storage="c:\users\gvalentin\documents\pers\tech\dotnet-challenge-kata-session-01\katas.session.01\katas.session.01.test\bin\debug\net8.0\katas.session.01.test.dll" id="a46ec870-a882-e175-b73d-4da54a764466">
+      <Execution id="2b91729f-7a68-4652-bcc1-e54a733eddae" />
+      <TestMethod codeBase="C:\Users\gvalentin\Documents\pers\tech\dotnet-challenge-kata-session-01\katas.session.01\katas.session.01.test\bin\Debug\net8.0\Katas.Session.01.Test.dll" adapterTypeName="executor://nunit3testexecutor/" className="Katas.Session._01.Test.MultipleKataTest" name="SumMultiplesBelow(0,0)" />
     </UnitTest>
-    <UnitTest name="SumMultiplesBelow(0,0)" storage="c:\01-projects\apside\git\dotnet-challenge-kata-session-01\katas.session.01\katas.session.01.test\bin\debug\net8.0\katas.session.01.test.dll" id="a46ec870-a882-e175-b73d-4da54a764466">
-      <Execution id="7c354f96-27a6-431c-ad53-9b0af3a44b4a" />
-      <TestMethod codeBase="C:\01-projects\apside\git\dotnet-challenge-kata-session-01\katas.session.01\katas.session.01.test\bin\Debug\net8.0\Katas.Session.01.Test.dll" adapterTypeName="executor://nunit3testexecutor/" className="Katas.Session._01.Test.MultipleKataTest" name="SumMultiplesBelow(0,0)" />
+    <UnitTest name="SumMultiplesBelow(20,78)" storage="c:\users\gvalentin\documents\pers\tech\dotnet-challenge-kata-session-01\katas.session.01\katas.session.01.test\bin\debug\net8.0\katas.session.01.test.dll" id="e28f2492-0aad-6fad-7143-714e599eada8">
+      <Execution id="0167c534-5fd1-451e-a013-c1419e60f35b" />
+      <TestMethod codeBase="C:\Users\gvalentin\Documents\pers\tech\dotnet-challenge-kata-session-01\katas.session.01\katas.session.01.test\bin\Debug\net8.0\Katas.Session.01.Test.dll" adapterTypeName="executor://nunit3testexecutor/" className="Katas.Session._01.Test.MultipleKataTest" name="SumMultiplesBelow(20,78)" />
     </UnitTest>
-    <UnitTest name="SumMultiplesBelow(20,78)" storage="c:\01-projects\apside\git\dotnet-challenge-kata-session-01\katas.session.01\katas.session.01.test\bin\debug\net8.0\katas.session.01.test.dll" id="e28f2492-0aad-6fad-7143-714e599eada8">
-      <Execution id="f86ac3a0-ff23-4fad-9251-542d8b3ba841" />
-      <TestMethod codeBase="C:\01-projects\apside\git\dotnet-challenge-kata-session-01\katas.session.01\katas.session.01.test\bin\Debug\net8.0\Katas.Session.01.Test.dll" adapterTypeName="executor://nunit3testexecutor/" className="Katas.Session._01.Test.MultipleKataTest" name="SumMultiplesBelow(20,78)" />
+    <UnitTest name="TestCase(&quot;skyr&quot;,0)" storage="c:\users\gvalentin\documents\pers\tech\dotnet-challenge-kata-session-01\katas.session.01\katas.session.01.test\bin\debug\net8.0\katas.session.01.test.dll" id="2c0cf768-31a7-f8a6-dd7d-dc118fb6523e">
+      <Execution id="ab74698d-a198-482f-a6df-f0f91c86316c" />
+      <TestMethod codeBase="C:\Users\gvalentin\Documents\pers\tech\dotnet-challenge-kata-session-01\katas.session.01\katas.session.01.test\bin\Debug\net8.0\Katas.Session.01.Test.dll" adapterTypeName="executor://nunit3testexecutor/" className="Katas.Session._01.Test.VowelsKataTest" name="TestCase(&quot;skyr&quot;,0)" />
     </UnitTest>
-    <UnitTest name="TestCase(&quot;skyr&quot;,0)" storage="c:\01-projects\apside\git\dotnet-challenge-kata-session-01\katas.session.01\katas.session.01.test\bin\debug\net8.0\katas.session.01.test.dll" id="2c0cf768-31a7-f8a6-dd7d-dc118fb6523e">
-      <Execution id="498c5b20-c915-484c-a169-2f9688046748" />
-      <TestMethod codeBase="C:\01-projects\apside\git\dotnet-challenge-kata-session-01\katas.session.01\katas.session.01.test\bin\Debug\net8.0\Katas.Session.01.Test.dll" adapterTypeName="executor://nunit3testexecutor/" className="Katas.Session._01.Test.VowelsKataTest" name="TestCase(&quot;skyr&quot;,0)" />
+    <UnitTest name="SumMultiplesBelow(13,45)" storage="c:\users\gvalentin\documents\pers\tech\dotnet-challenge-kata-session-01\katas.session.01\katas.session.01.test\bin\debug\net8.0\katas.session.01.test.dll" id="15e1d935-1f9d-54d1-c534-daaf22b6d97c">
+      <Execution id="c715f103-61bd-4d72-8fa5-cc9c14276f30" />
+      <TestMethod codeBase="C:\Users\gvalentin\Documents\pers\tech\dotnet-challenge-kata-session-01\katas.session.01\katas.session.01.test\bin\Debug\net8.0\Katas.Session.01.Test.dll" adapterTypeName="executor://nunit3testexecutor/" className="Katas.Session._01.Test.MultipleKataTest" name="SumMultiplesBelow(13,45)" />
     </UnitTest>
-    <UnitTest name="TestCase(&quot;rayon&quot;,2)" storage="c:\01-projects\apside\git\dotnet-challenge-kata-session-01\katas.session.01\katas.session.01.test\bin\debug\net8.0\katas.session.01.test.dll" id="982be789-f5fb-4b21-9a5c-727698cea1ca">
-      <Execution id="cbac55e6-ad78-4846-a870-e905b9ca1b6e" />
-      <TestMethod codeBase="C:\01-projects\apside\git\dotnet-challenge-kata-session-01\katas.session.01\katas.session.01.test\bin\Debug\net8.0\Katas.Session.01.Test.dll" adapterTypeName="executor://nunit3testexecutor/" className="Katas.Session._01.Test.VowelsKataTest" name="TestCase(&quot;rayon&quot;,2)" />
+    <UnitTest name="TestCase(&quot;rayon&quot;,2)" storage="c:\users\gvalentin\documents\pers\tech\dotnet-challenge-kata-session-01\katas.session.01\katas.session.01.test\bin\debug\net8.0\katas.session.01.test.dll" id="982be789-f5fb-4b21-9a5c-727698cea1ca">
+      <Execution id="f12402b9-9249-4db9-8934-b34e0212d1da" />
+      <TestMethod codeBase="C:\Users\gvalentin\Documents\pers\tech\dotnet-challenge-kata-session-01\katas.session.01\katas.session.01.test\bin\Debug\net8.0\Katas.Session.01.Test.dll" adapterTypeName="executor://nunit3testexecutor/" className="Katas.Session._01.Test.VowelsKataTest" name="TestCase(&quot;rayon&quot;,2)" />
     </UnitTest>
-    <UnitTest name="ComputeMinMaxTest(&quot;92 8 70 30 12&quot;,&quot;92 8&quot;)" storage="c:\01-projects\apside\git\dotnet-challenge-kata-session-01\katas.session.01\katas.session.01.test\bin\debug\net8.0\katas.session.01.test.dll" id="2c2d8b84-3f86-eb0e-1d49-87b351117c76">
-      <Execution id="40c81efe-2c78-4f70-a109-46859f23294b" />
-      <TestMethod codeBase="C:\01-projects\apside\git\dotnet-challenge-kata-session-01\katas.session.01\katas.session.01.test\bin\Debug\net8.0\Katas.Session.01.Test.dll" adapterTypeName="executor://nunit3testexecutor/" className="Katas.Session._01.Test.MinMaxKataTest" name="ComputeMinMaxTest(&quot;92 8 70 30 12&quot;,&quot;92 8&quot;)" />
+    <UnitTest name="ComputeMinMaxTest(&quot;92 8 70 30 12&quot;,&quot;92 8&quot;)" storage="c:\users\gvalentin\documents\pers\tech\dotnet-challenge-kata-session-01\katas.session.01\katas.session.01.test\bin\debug\net8.0\katas.session.01.test.dll" id="2c2d8b84-3f86-eb0e-1d49-87b351117c76">
+      <Execution id="91a00188-7fac-4f28-b9c2-45557f2d1693" />
+      <TestMethod codeBase="C:\Users\gvalentin\Documents\pers\tech\dotnet-challenge-kata-session-01\katas.session.01\katas.session.01.test\bin\Debug\net8.0\Katas.Session.01.Test.dll" adapterTypeName="executor://nunit3testexecutor/" className="Katas.Session._01.Test.MinMaxKataTest" name="ComputeMinMaxTest(&quot;92 8 70 30 12&quot;,&quot;92 8&quot;)" />
     </UnitTest>
-    <UnitTest name="ComputeMinMaxTest(&quot;43 20 31 -45 93&quot;,&quot;93 -45&quot;)" storage="c:\01-projects\apside\git\dotnet-challenge-kata-session-01\katas.session.01\katas.session.01.test\bin\debug\net8.0\katas.session.01.test.dll" id="3d8dec6a-7eee-d6d7-1499-746332efeb14">
-      <Execution id="565aeeec-d9e6-4c4c-86b0-01b467f82dab" />
-      <TestMethod codeBase="C:\01-projects\apside\git\dotnet-challenge-kata-session-01\katas.session.01\katas.session.01.test\bin\Debug\net8.0\Katas.Session.01.Test.dll" adapterTypeName="executor://nunit3testexecutor/" className="Katas.Session._01.Test.MinMaxKataTest" name="ComputeMinMaxTest(&quot;43 20 31 -45 93&quot;,&quot;93 -45&quot;)" />
+    <UnitTest name="ComputeMinMaxTest(&quot;43 20 31 -45 93&quot;,&quot;93 -45&quot;)" storage="c:\users\gvalentin\documents\pers\tech\dotnet-challenge-kata-session-01\katas.session.01\katas.session.01.test\bin\debug\net8.0\katas.session.01.test.dll" id="3d8dec6a-7eee-d6d7-1499-746332efeb14">
+      <Execution id="bd50a7ff-1d4c-44ef-a63e-a6a56dfc65ea" />
+      <TestMethod codeBase="C:\Users\gvalentin\Documents\pers\tech\dotnet-challenge-kata-session-01\katas.session.01\katas.session.01.test\bin\Debug\net8.0\Katas.Session.01.Test.dll" adapterTypeName="executor://nunit3testexecutor/" className="Katas.Session._01.Test.MinMaxKataTest" name="ComputeMinMaxTest(&quot;43 20 31 -45 93&quot;,&quot;93 -45&quot;)" />
     </UnitTest>
-    <UnitTest name="NegativeOddTest(-7)" storage="c:\01-projects\apside\git\dotnet-challenge-kata-session-01\katas.session.01\katas.session.01.test\bin\debug\net8.0\katas.session.01.test.dll" id="63a19c50-ddb6-ead2-b1f1-403d96560d5d">
-      <Execution id="e73420e1-d1c3-42ea-8ea9-2327d7a1e067" />
-      <TestMethod codeBase="C:\01-projects\apside\git\dotnet-challenge-kata-session-01\katas.session.01\katas.session.01.test\bin\Debug\net8.0\Katas.Session.01.Test.dll" adapterTypeName="executor://nunit3testexecutor/" className="Katas.Session._01.Test.EvenOddKataTest" name="NegativeOddTest(-7)" />
+    <UnitTest name="NegativeOddTest(-7)" storage="c:\users\gvalentin\documents\pers\tech\dotnet-challenge-kata-session-01\katas.session.01\katas.session.01.test\bin\debug\net8.0\katas.session.01.test.dll" id="63a19c50-ddb6-ead2-b1f1-403d96560d5d">
+      <Execution id="e36f9459-aa25-4c2f-a0ec-2a125a80328f" />
+      <TestMethod codeBase="C:\Users\gvalentin\Documents\pers\tech\dotnet-challenge-kata-session-01\katas.session.01\katas.session.01.test\bin\Debug\net8.0\Katas.Session.01.Test.dll" adapterTypeName="executor://nunit3testexecutor/" className="Katas.Session._01.Test.EvenOddKataTest" name="NegativeOddTest(-7)" />
     </UnitTest>
-    <UnitTest name="ReverseWordTest(&quot;I am an expert at this&quot;,&quot;this at expert an am I&quot;)" storage="c:\01-projects\apside\git\dotnet-challenge-kata-session-01\katas.session.01\katas.session.01.test\bin\debug\net8.0\katas.session.01.test.dll" id="e1258a44-2af4-f288-2335-cf3ebc46dab6">
-      <Execution id="fa172a3b-8691-4405-b6a2-8116b2fa942a" />
-      <TestMethod codeBase="C:\01-projects\apside\git\dotnet-challenge-kata-session-01\katas.session.01\katas.session.01.test\bin\Debug\net8.0\Katas.Session.01.Test.dll" adapterTypeName="executor://nunit3testexecutor/" className="Katas.Session._01.Test.ReverseStringKataTest" name="ReverseWordTest(&quot;I am an expert at this&quot;,&quot;this at expert an am I&quot;)" />
+    <UnitTest name="ReverseWordTest(&quot;I am an expert at this&quot;,&quot;this at expert an am I&quot;)" storage="c:\users\gvalentin\documents\pers\tech\dotnet-challenge-kata-session-01\katas.session.01\katas.session.01.test\bin\debug\net8.0\katas.session.01.test.dll" id="e1258a44-2af4-f288-2335-cf3ebc46dab6">
+      <Execution id="f9c662f5-86b4-4cbf-b98d-168d4e812cd4" />
+      <TestMethod codeBase="C:\Users\gvalentin\Documents\pers\tech\dotnet-challenge-kata-session-01\katas.session.01\katas.session.01.test\bin\Debug\net8.0\Katas.Session.01.Test.dll" adapterTypeName="executor://nunit3testexecutor/" className="Katas.Session._01.Test.ReverseStringKataTest" name="ReverseWordTest(&quot;I am an expert at this&quot;,&quot;this at expert an am I&quot;)" />
     </UnitTest>
-    <UnitTest name="PositiveEvenTest(2)" storage="c:\01-projects\apside\git\dotnet-challenge-kata-session-01\katas.session.01\katas.session.01.test\bin\debug\net8.0\katas.session.01.test.dll" id="b3c6c7de-fdcd-64e4-0cb7-40ec699e9e54">
-      <Execution id="f4ccdf44-1dfc-43f9-8562-cc4b4f6f8db9" />
-      <TestMethod codeBase="C:\01-projects\apside\git\dotnet-challenge-kata-session-01\katas.session.01\katas.session.01.test\bin\Debug\net8.0\Katas.Session.01.Test.dll" adapterTypeName="executor://nunit3testexecutor/" className="Katas.Session._01.Test.EvenOddKataTest" name="PositiveEvenTest(2)" />
+    <UnitTest name="PositiveEvenTest(2)" storage="c:\users\gvalentin\documents\pers\tech\dotnet-challenge-kata-session-01\katas.session.01\katas.session.01.test\bin\debug\net8.0\katas.session.01.test.dll" id="b3c6c7de-fdcd-64e4-0cb7-40ec699e9e54">
+      <Execution id="95bd429a-6a6b-4b17-b313-93fb03027a5a" />
+      <TestMethod codeBase="C:\Users\gvalentin\Documents\pers\tech\dotnet-challenge-kata-session-01\katas.session.01\katas.session.01.test\bin\Debug\net8.0\Katas.Session.01.Test.dll" adapterTypeName="executor://nunit3testexecutor/" className="Katas.Session._01.Test.EvenOddKataTest" name="PositiveEvenTest(2)" />
     </UnitTest>
-    <UnitTest name="TestCase(&quot;transatlantique&quot;,6)" storage="c:\01-projects\apside\git\dotnet-challenge-kata-session-01\katas.session.01\katas.session.01.test\bin\debug\net8.0\katas.session.01.test.dll" id="6eee214f-7716-45cb-53a1-48b743f4ebf3">
-      <Execution id="0c67ce12-a7e2-4951-9662-e6ace1cfc88d" />
-      <TestMethod codeBase="C:\01-projects\apside\git\dotnet-challenge-kata-session-01\katas.session.01\katas.session.01.test\bin\Debug\net8.0\Katas.Session.01.Test.dll" adapterTypeName="executor://nunit3testexecutor/" className="Katas.Session._01.Test.VowelsKataTest" name="TestCase(&quot;transatlantique&quot;,6)" />
+    <UnitTest name="TestCase(&quot;transatlantique&quot;,6)" storage="c:\users\gvalentin\documents\pers\tech\dotnet-challenge-kata-session-01\katas.session.01\katas.session.01.test\bin\debug\net8.0\katas.session.01.test.dll" id="6eee214f-7716-45cb-53a1-48b743f4ebf3">
+      <Execution id="403c7ca0-2014-458e-b0e2-33d5d9b70098" />
+      <TestMethod codeBase="C:\Users\gvalentin\Documents\pers\tech\dotnet-challenge-kata-session-01\katas.session.01\katas.session.01.test\bin\Debug\net8.0\Katas.Session.01.Test.dll" adapterTypeName="executor://nunit3testexecutor/" className="Katas.Session._01.Test.VowelsKataTest" name="TestCase(&quot;transatlantique&quot;,6)" />
     </UnitTest>
-    <UnitTest name="NegativeEvenTest(-2)" storage="c:\01-projects\apside\git\dotnet-challenge-kata-session-01\katas.session.01\katas.session.01.test\bin\debug\net8.0\katas.session.01.test.dll" id="b099626a-07ed-ca16-e547-15698d940428">
-      <Execution id="1ce3a994-c4e7-4ba7-8102-de3866da8f51" />
-      <TestMethod codeBase="C:\01-projects\apside\git\dotnet-challenge-kata-session-01\katas.session.01\katas.session.01.test\bin\Debug\net8.0\Katas.Session.01.Test.dll" adapterTypeName="executor://nunit3testexecutor/" className="Katas.Session._01.Test.EvenOddKataTest" name="NegativeEvenTest(-2)" />
+    <UnitTest name="NegativeEvenTest(-2)" storage="c:\users\gvalentin\documents\pers\tech\dotnet-challenge-kata-session-01\katas.session.01\katas.session.01.test\bin\debug\net8.0\katas.session.01.test.dll" id="b099626a-07ed-ca16-e547-15698d940428">
+      <Execution id="8b61e1a3-8239-4273-b904-4f9d4ceee992" />
+      <TestMethod codeBase="C:\Users\gvalentin\Documents\pers\tech\dotnet-challenge-kata-session-01\katas.session.01\katas.session.01.test\bin\Debug\net8.0\Katas.Session.01.Test.dll" adapterTypeName="executor://nunit3testexecutor/" className="Katas.Session._01.Test.EvenOddKataTest" name="NegativeEvenTest(-2)" />
     </UnitTest>
-    <UnitTest name="ComputeMinMaxTest(&quot;8 3 -5 42 -1 0 0 -9 4 7 4 -4&quot;,&quot;42 -9&quot;)" storage="c:\01-projects\apside\git\dotnet-challenge-kata-session-01\katas.session.01\katas.session.01.test\bin\debug\net8.0\katas.session.01.test.dll" id="288450e0-cba2-d0b4-5940-ca946ab53c9d">
-      <Execution id="12b1e481-e4ec-4a20-b475-a12ef4ffba43" />
-      <TestMethod codeBase="C:\01-projects\apside\git\dotnet-challenge-kata-session-01\katas.session.01\katas.session.01.test\bin\Debug\net8.0\Katas.Session.01.Test.dll" adapterTypeName="executor://nunit3testexecutor/" className="Katas.Session._01.Test.MinMaxKataTest" name="ComputeMinMaxTest(&quot;8 3 -5 42 -1 0 0 -9 4 7 4 -4&quot;,&quot;42 -9&quot;)" />
+    <UnitTest name="ComputeMinMaxTest(&quot;8 3 -5 42 -1 0 0 -9 4 7 4 -4&quot;,&quot;42 -9&quot;)" storage="c:\users\gvalentin\documents\pers\tech\dotnet-challenge-kata-session-01\katas.session.01\katas.session.01.test\bin\debug\net8.0\katas.session.01.test.dll" id="288450e0-cba2-d0b4-5940-ca946ab53c9d">
+      <Execution id="a7ac5dd9-71af-4079-9968-4c1ab5a847d0" />
+      <TestMethod codeBase="C:\Users\gvalentin\Documents\pers\tech\dotnet-challenge-kata-session-01\katas.session.01\katas.session.01.test\bin\Debug\net8.0\Katas.Session.01.Test.dll" adapterTypeName="executor://nunit3testexecutor/" className="Katas.Session._01.Test.MinMaxKataTest" name="ComputeMinMaxTest(&quot;8 3 -5 42 -1 0 0 -9 4 7 4 -4&quot;,&quot;42 -9&quot;)" />
     </UnitTest>
-    <UnitTest name="TestCase(&quot;chandail&quot;,3)" storage="c:\01-projects\apside\git\dotnet-challenge-kata-session-01\katas.session.01\katas.session.01.test\bin\debug\net8.0\katas.session.01.test.dll" id="6d5f6542-de52-3c25-65b1-c5d75cf46226">
-      <Execution id="ec1b9574-199f-4c10-90a0-5c2b66b97f0c" />
-      <TestMethod codeBase="C:\01-projects\apside\git\dotnet-challenge-kata-session-01\katas.session.01\katas.session.01.test\bin\Debug\net8.0\Katas.Session.01.Test.dll" adapterTypeName="executor://nunit3testexecutor/" className="Katas.Session._01.Test.VowelsKataTest" name="TestCase(&quot;chandail&quot;,3)" />
+    <UnitTest name="TestCase(&quot;chandail&quot;,3)" storage="c:\users\gvalentin\documents\pers\tech\dotnet-challenge-kata-session-01\katas.session.01\katas.session.01.test\bin\debug\net8.0\katas.session.01.test.dll" id="6d5f6542-de52-3c25-65b1-c5d75cf46226">
+      <Execution id="ce9bfae2-21cf-429c-9347-4b6f00912dd8" />
+      <TestMethod codeBase="C:\Users\gvalentin\Documents\pers\tech\dotnet-challenge-kata-session-01\katas.session.01\katas.session.01.test\bin\Debug\net8.0\Katas.Session.01.Test.dll" adapterTypeName="executor://nunit3testexecutor/" className="Katas.Session._01.Test.VowelsKataTest" name="TestCase(&quot;chandail&quot;,3)" />
     </UnitTest>
-    <UnitTest name="TestCase(&quot;clignotement&quot;,4)" storage="c:\01-projects\apside\git\dotnet-challenge-kata-session-01\katas.session.01\katas.session.01.test\bin\debug\net8.0\katas.session.01.test.dll" id="227cfdb0-700a-4835-7719-513f0523ef66">
-      <Execution id="8699de67-fcbf-401e-b61c-b03bcd25b20c" />
-      <TestMethod codeBase="C:\01-projects\apside\git\dotnet-challenge-kata-session-01\katas.session.01\katas.session.01.test\bin\Debug\net8.0\Katas.Session.01.Test.dll" adapterTypeName="executor://nunit3testexecutor/" className="Katas.Session._01.Test.VowelsKataTest" name="TestCase(&quot;clignotement&quot;,4)" />
+    <UnitTest name="TestCase(&quot;clignotement&quot;,4)" storage="c:\users\gvalentin\documents\pers\tech\dotnet-challenge-kata-session-01\katas.session.01\katas.session.01.test\bin\debug\net8.0\katas.session.01.test.dll" id="227cfdb0-700a-4835-7719-513f0523ef66">
+      <Execution id="aedf52d8-6e87-4b88-bd45-0fd73d978575" />
+      <TestMethod codeBase="C:\Users\gvalentin\Documents\pers\tech\dotnet-challenge-kata-session-01\katas.session.01\katas.session.01.test\bin\Debug\net8.0\Katas.Session.01.Test.dll" adapterTypeName="executor://nunit3testexecutor/" className="Katas.Session._01.Test.VowelsKataTest" name="TestCase(&quot;clignotement&quot;,4)" />
     </UnitTest>
-    <UnitTest name="ComputeMinMaxTest(&quot;-33 68 15 52 -49&quot;,&quot;68 -49&quot;)" storage="c:\01-projects\apside\git\dotnet-challenge-kata-session-01\katas.session.01\katas.session.01.test\bin\debug\net8.0\katas.session.01.test.dll" id="80b7bd27-8bec-73e1-d3fa-0c77ec12425e">
-      <Execution id="23be7a1b-3d09-40af-bff5-f07ef4d21b0e" />
-      <TestMethod codeBase="C:\01-projects\apside\git\dotnet-challenge-kata-session-01\katas.session.01\katas.session.01.test\bin\Debug\net8.0\Katas.Session.01.Test.dll" adapterTypeName="executor://nunit3testexecutor/" className="Katas.Session._01.Test.MinMaxKataTest" name="ComputeMinMaxTest(&quot;-33 68 15 52 -49&quot;,&quot;68 -49&quot;)" />
+    <UnitTest name="ComputeMinMaxTest(&quot;-33 68 15 52 -49&quot;,&quot;68 -49&quot;)" storage="c:\users\gvalentin\documents\pers\tech\dotnet-challenge-kata-session-01\katas.session.01\katas.session.01.test\bin\debug\net8.0\katas.session.01.test.dll" id="80b7bd27-8bec-73e1-d3fa-0c77ec12425e">
+      <Execution id="99b6829c-1352-49bd-b856-713297e57960" />
+      <TestMethod codeBase="C:\Users\gvalentin\Documents\pers\tech\dotnet-challenge-kata-session-01\katas.session.01\katas.session.01.test\bin\Debug\net8.0\Katas.Session.01.Test.dll" adapterTypeName="executor://nunit3testexecutor/" className="Katas.Session._01.Test.MinMaxKataTest" name="ComputeMinMaxTest(&quot;-33 68 15 52 -49&quot;,&quot;68 -49&quot;)" />
     </UnitTest>
-    <UnitTest name="TestCase(&quot;tourista&quot;,4)" storage="c:\01-projects\apside\git\dotnet-challenge-kata-session-01\katas.session.01\katas.session.01.test\bin\debug\net8.0\katas.session.01.test.dll" id="395c816a-8bde-585a-c184-e326b6a9ab73">
-      <Execution id="14eafe12-112f-415a-97e5-fee8e4973f00" />
-      <TestMethod codeBase="C:\01-projects\apside\git\dotnet-challenge-kata-session-01\katas.session.01\katas.session.01.test\bin\Debug\net8.0\Katas.Session.01.Test.dll" adapterTypeName="executor://nunit3testexecutor/" className="Katas.Session._01.Test.VowelsKataTest" name="TestCase(&quot;tourista&quot;,4)" />
+    <UnitTest name="TestCase(&quot;tourista&quot;,4)" storage="c:\users\gvalentin\documents\pers\tech\dotnet-challenge-kata-session-01\katas.session.01\katas.session.01.test\bin\debug\net8.0\katas.session.01.test.dll" id="395c816a-8bde-585a-c184-e326b6a9ab73">
+      <Execution id="3ec69484-e4b9-433f-ad1d-c152fdb2c5fa" />
+      <TestMethod codeBase="C:\Users\gvalentin\Documents\pers\tech\dotnet-challenge-kata-session-01\katas.session.01\katas.session.01.test\bin\Debug\net8.0\Katas.Session.01.Test.dll" adapterTypeName="executor://nunit3testexecutor/" className="Katas.Session._01.Test.VowelsKataTest" name="TestCase(&quot;tourista&quot;,4)" />
     </UnitTest>
-    <UnitTest name="SumMultiplesBelow(200,9168)" storage="c:\01-projects\apside\git\dotnet-challenge-kata-session-01\katas.session.01\katas.session.01.test\bin\debug\net8.0\katas.session.01.test.dll" id="946cac8a-2444-db1c-b2a8-30349d43a95d">
-      <Execution id="5526a79d-5a4e-432f-8134-33c33945877c" />
-      <TestMethod codeBase="C:\01-projects\apside\git\dotnet-challenge-kata-session-01\katas.session.01\katas.session.01.test\bin\Debug\net8.0\Katas.Session.01.Test.dll" adapterTypeName="executor://nunit3testexecutor/" className="Katas.Session._01.Test.MultipleKataTest" name="SumMultiplesBelow(200,9168)" />
+    <UnitTest name="SumMultiplesBelow(200,9168)" storage="c:\users\gvalentin\documents\pers\tech\dotnet-challenge-kata-session-01\katas.session.01\katas.session.01.test\bin\debug\net8.0\katas.session.01.test.dll" id="946cac8a-2444-db1c-b2a8-30349d43a95d">
+      <Execution id="cd8a3390-4a55-44b0-98a6-6ff859ebc910" />
+      <TestMethod codeBase="C:\Users\gvalentin\Documents\pers\tech\dotnet-challenge-kata-session-01\katas.session.01\katas.session.01.test\bin\Debug\net8.0\Katas.Session.01.Test.dll" adapterTypeName="executor://nunit3testexecutor/" className="Katas.Session._01.Test.MultipleKataTest" name="SumMultiplesBelow(200,9168)" />
     </UnitTest>
-    <UnitTest name="NegativeEvenTest(-42)" storage="c:\01-projects\apside\git\dotnet-challenge-kata-session-01\katas.session.01\katas.session.01.test\bin\debug\net8.0\katas.session.01.test.dll" id="a23becaa-8844-8152-d67e-53559c04e557">
-      <Execution id="8a459ae2-68c0-49a0-90d4-2917ef3dcd0f" />
-      <TestMethod codeBase="C:\01-projects\apside\git\dotnet-challenge-kata-session-01\katas.session.01\katas.session.01.test\bin\Debug\net8.0\Katas.Session.01.Test.dll" adapterTypeName="executor://nunit3testexecutor/" className="Katas.Session._01.Test.EvenOddKataTest" name="NegativeEvenTest(-42)" />
+    <UnitTest name="NegativeEvenTest(-42)" storage="c:\users\gvalentin\documents\pers\tech\dotnet-challenge-kata-session-01\katas.session.01\katas.session.01.test\bin\debug\net8.0\katas.session.01.test.dll" id="a23becaa-8844-8152-d67e-53559c04e557">
+      <Execution id="8b916dda-38ee-4b5e-bcbe-5afcf09a85d3" />
+      <TestMethod codeBase="C:\Users\gvalentin\Documents\pers\tech\dotnet-challenge-kata-session-01\katas.session.01\katas.session.01.test\bin\Debug\net8.0\Katas.Session.01.Test.dll" adapterTypeName="executor://nunit3testexecutor/" className="Katas.Session._01.Test.EvenOddKataTest" name="NegativeEvenTest(-42)" />
     </UnitTest>
-    <UnitTest name="ReverseWordTest(&quot;Yes we can!&quot;,&quot;can! we Yes&quot;)" storage="c:\01-projects\apside\git\dotnet-challenge-kata-session-01\katas.session.01\katas.session.01.test\bin\debug\net8.0\katas.session.01.test.dll" id="46e1b543-2c66-dabd-b76a-0374a9903dae">
-      <Execution id="7e4dc883-c348-4e58-b1dd-28093eb2f673" />
-      <TestMethod codeBase="C:\01-projects\apside\git\dotnet-challenge-kata-session-01\katas.session.01\katas.session.01.test\bin\Debug\net8.0\Katas.Session.01.Test.dll" adapterTypeName="executor://nunit3testexecutor/" className="Katas.Session._01.Test.ReverseStringKataTest" name="ReverseWordTest(&quot;Yes we can!&quot;,&quot;can! we Yes&quot;)" />
+    <UnitTest name="ReverseWordTest(&quot;Yes we can!&quot;,&quot;can! we Yes&quot;)" storage="c:\users\gvalentin\documents\pers\tech\dotnet-challenge-kata-session-01\katas.session.01\katas.session.01.test\bin\debug\net8.0\katas.session.01.test.dll" id="46e1b543-2c66-dabd-b76a-0374a9903dae">
+      <Execution id="7d486b9a-885d-4453-925d-85299c3b25e8" />
+      <TestMethod codeBase="C:\Users\gvalentin\Documents\pers\tech\dotnet-challenge-kata-session-01\katas.session.01\katas.session.01.test\bin\Debug\net8.0\Katas.Session.01.Test.dll" adapterTypeName="executor://nunit3testexecutor/" className="Katas.Session._01.Test.ReverseStringKataTest" name="ReverseWordTest(&quot;Yes we can!&quot;,&quot;can! we Yes&quot;)" />
     </UnitTest>
-    <UnitTest name="SumMultiplesBelow(-15,0)" storage="c:\01-projects\apside\git\dotnet-challenge-kata-session-01\katas.session.01\katas.session.01.test\bin\debug\net8.0\katas.session.01.test.dll" id="f2e2bda2-ce51-4c1d-271f-71538a57d84d">
-      <Execution id="1fb2ab83-198f-4cb2-88d2-d5d802e85771" />
-      <TestMethod codeBase="C:\01-projects\apside\git\dotnet-challenge-kata-session-01\katas.session.01\katas.session.01.test\bin\Debug\net8.0\Katas.Session.01.Test.dll" adapterTypeName="executor://nunit3testexecutor/" className="Katas.Session._01.Test.MultipleKataTest" name="SumMultiplesBelow(-15,0)" />
+    <UnitTest name="SumMultiplesBelow(-15,0)" storage="c:\users\gvalentin\documents\pers\tech\dotnet-challenge-kata-session-01\katas.session.01\katas.session.01.test\bin\debug\net8.0\katas.session.01.test.dll" id="f2e2bda2-ce51-4c1d-271f-71538a57d84d">
+      <Execution id="3cd8ba3b-b1aa-444f-8cd0-dd41c1e2294e" />
+      <TestMethod codeBase="C:\Users\gvalentin\Documents\pers\tech\dotnet-challenge-kata-session-01\katas.session.01\katas.session.01.test\bin\Debug\net8.0\Katas.Session.01.Test.dll" adapterTypeName="executor://nunit3testexecutor/" className="Katas.Session._01.Test.MultipleKataTest" name="SumMultiplesBelow(-15,0)" />
     </UnitTest>
-    <UnitTest name="ComputeMinMaxTest(&quot;73 -28 -18 27 23 -36&quot;,&quot;73 -36&quot;)" storage="c:\01-projects\apside\git\dotnet-challenge-kata-session-01\katas.session.01\katas.session.01.test\bin\debug\net8.0\katas.session.01.test.dll" id="22b7b4d8-ec29-6183-842b-faa8aceeab54">
-      <Execution id="9da9edbd-64c5-44b8-9bed-2f0104177775" />
-      <TestMethod codeBase="C:\01-projects\apside\git\dotnet-challenge-kata-session-01\katas.session.01\katas.session.01.test\bin\Debug\net8.0\Katas.Session.01.Test.dll" adapterTypeName="executor://nunit3testexecutor/" className="Katas.Session._01.Test.MinMaxKataTest" name="ComputeMinMaxTest(&quot;73 -28 -18 27 23 -36&quot;,&quot;73 -36&quot;)" />
+    <UnitTest name="ComputeMinMaxTest(&quot;73 -28 -18 27 23 -36&quot;,&quot;73 -36&quot;)" storage="c:\users\gvalentin\documents\pers\tech\dotnet-challenge-kata-session-01\katas.session.01\katas.session.01.test\bin\debug\net8.0\katas.session.01.test.dll" id="22b7b4d8-ec29-6183-842b-faa8aceeab54">
+      <Execution id="363f01c3-adf5-4516-b218-3bb5fcf2d30c" />
+      <TestMethod codeBase="C:\Users\gvalentin\Documents\pers\tech\dotnet-challenge-kata-session-01\katas.session.01\katas.session.01.test\bin\Debug\net8.0\Katas.Session.01.Test.dll" adapterTypeName="executor://nunit3testexecutor/" className="Katas.Session._01.Test.MinMaxKataTest" name="ComputeMinMaxTest(&quot;73 -28 -18 27 23 -36&quot;,&quot;73 -36&quot;)" />
     </UnitTest>
-    <UnitTest name="ReverseWordTest(&quot;survive to Drive&quot;,&quot;Drive to survive&quot;)" storage="c:\01-projects\apside\git\dotnet-challenge-kata-session-01\katas.session.01\katas.session.01.test\bin\debug\net8.0\katas.session.01.test.dll" id="70f596d3-083a-01db-aabf-4ab5a6a1f62b">
-      <Execution id="7cf079eb-4805-4b69-bd75-c78bd09a66a2" />
-      <TestMethod codeBase="C:\01-projects\apside\git\dotnet-challenge-kata-session-01\katas.session.01\katas.session.01.test\bin\Debug\net8.0\Katas.Session.01.Test.dll" adapterTypeName="executor://nunit3testexecutor/" className="Katas.Session._01.Test.ReverseStringKataTest" name="ReverseWordTest(&quot;survive to Drive&quot;,&quot;Drive to survive&quot;)" />
+    <UnitTest name="ReverseWordTest(&quot;survive to Drive&quot;,&quot;Drive to survive&quot;)" storage="c:\users\gvalentin\documents\pers\tech\dotnet-challenge-kata-session-01\katas.session.01\katas.session.01.test\bin\debug\net8.0\katas.session.01.test.dll" id="70f596d3-083a-01db-aabf-4ab5a6a1f62b">
+      <Execution id="c870c108-0815-415d-adb6-8343b5823fc7" />
+      <TestMethod codeBase="C:\Users\gvalentin\Documents\pers\tech\dotnet-challenge-kata-session-01\katas.session.01\katas.session.01.test\bin\Debug\net8.0\Katas.Session.01.Test.dll" adapterTypeName="executor://nunit3testexecutor/" className="Katas.Session._01.Test.ReverseStringKataTest" name="ReverseWordTest(&quot;survive to Drive&quot;,&quot;Drive to survive&quot;)" />
     </UnitTest>
   </TestDefinitions>
   <TestEntries>
-    <TestEntry testId="3d8dec6a-7eee-d6d7-1499-746332efeb14" executionId="565aeeec-d9e6-4c4c-86b0-01b467f82dab" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
-    <TestEntry testId="2c2d8b84-3f86-eb0e-1d49-87b351117c76" executionId="40c81efe-2c78-4f70-a109-46859f23294b" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
-    <TestEntry testId="3b358dac-a42d-0b47-7a51-d3cc4c3a3b0d" executionId="898171d3-cc35-4a91-8257-0bf52409d90a" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
-    <TestEntry testId="47def0c6-3498-ef1e-0e9a-d4c16878107d" executionId="909dae5a-40bc-41c8-90e5-f3984ff8b51b" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
-    <TestEntry testId="227cfdb0-700a-4835-7719-513f0523ef66" executionId="8699de67-fcbf-401e-b61c-b03bcd25b20c" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
-    <TestEntry testId="e1258a44-2af4-f288-2335-cf3ebc46dab6" executionId="fa172a3b-8691-4405-b6a2-8116b2fa942a" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
-    <TestEntry testId="e28f2492-0aad-6fad-7143-714e599eada8" executionId="f86ac3a0-ff23-4fad-9251-542d8b3ba841" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
-    <TestEntry testId="d30c91b2-fc8f-3067-b4a5-03536a4c161c" executionId="d684ee18-bc19-430c-8f4a-9ebb3a53f802" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
-    <TestEntry testId="627c1473-3190-fed7-4956-baa8983d7cff" executionId="8e8d46f8-042a-4040-ab13-7dd2aa4ab8cd" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
-    <TestEntry testId="63a19c50-ddb6-ead2-b1f1-403d96560d5d" executionId="e73420e1-d1c3-42ea-8ea9-2327d7a1e067" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
-    <TestEntry testId="21a33686-5f6a-6667-1f47-f4937c8e479b" executionId="12b4cc65-42ed-4a88-9f9a-c889fe981915" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
-    <TestEntry testId="6d5f6542-de52-3c25-65b1-c5d75cf46226" executionId="ec1b9574-199f-4c10-90a0-5c2b66b97f0c" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
-    <TestEntry testId="fc361f04-2e77-9345-dc9a-c0ae25f353b0" executionId="dd8a4024-06fc-40bf-9a3f-5109a54a7106" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
-    <TestEntry testId="22b7b4d8-ec29-6183-842b-faa8aceeab54" executionId="9da9edbd-64c5-44b8-9bed-2f0104177775" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
-    <TestEntry testId="6eee214f-7716-45cb-53a1-48b743f4ebf3" executionId="0c67ce12-a7e2-4951-9662-e6ace1cfc88d" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
-    <TestEntry testId="2356662f-dfe9-8abc-13fc-6afd5d4039c1" executionId="63626f7c-145c-4668-b0cf-8a25a1dc8a03" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
-    <TestEntry testId="946cac8a-2444-db1c-b2a8-30349d43a95d" executionId="5526a79d-5a4e-432f-8134-33c33945877c" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
-    <TestEntry testId="288450e0-cba2-d0b4-5940-ca946ab53c9d" executionId="12b1e481-e4ec-4a20-b475-a12ef4ffba43" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
-    <TestEntry testId="40b625bb-e8d4-1859-67f4-86f1b245359e" executionId="03e60e59-dee0-4976-a7c7-3762394e9ff4" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
-    <TestEntry testId="52cf92fa-5962-b025-9ce0-9c62e763192b" executionId="ab76fbea-f445-4aa7-9c66-839fee5142c8" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
-    <TestEntry testId="b0462b24-a432-4aa8-673b-28fb9bcd2cd2" executionId="5ef05c93-4c44-4161-a6a5-95b751c33dad" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
-    <TestEntry testId="982be789-f5fb-4b21-9a5c-727698cea1ca" executionId="cbac55e6-ad78-4846-a870-e905b9ca1b6e" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
-    <TestEntry testId="b3c6c7de-fdcd-64e4-0cb7-40ec699e9e54" executionId="f4ccdf44-1dfc-43f9-8562-cc4b4f6f8db9" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
-    <TestEntry testId="70f596d3-083a-01db-aabf-4ab5a6a1f62b" executionId="7cf079eb-4805-4b69-bd75-c78bd09a66a2" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
-    <TestEntry testId="395c816a-8bde-585a-c184-e326b6a9ab73" executionId="14eafe12-112f-415a-97e5-fee8e4973f00" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
-    <TestEntry testId="fc11d4de-b0d1-1c1d-68fe-caef1640c414" executionId="63264746-775e-4e06-8048-9da7009793e7" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
-    <TestEntry testId="b099626a-07ed-ca16-e547-15698d940428" executionId="1ce3a994-c4e7-4ba7-8102-de3866da8f51" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
-    <TestEntry testId="f2e2bda2-ce51-4c1d-271f-71538a57d84d" executionId="1fb2ab83-198f-4cb2-88d2-d5d802e85771" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
-    <TestEntry testId="b340dc6f-9ffc-490c-e043-bf0f3c78db88" executionId="ce1fe8e0-436c-46d8-9d31-0a0d9c394508" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
-    <TestEntry testId="2c0cf768-31a7-f8a6-dd7d-dc118fb6523e" executionId="498c5b20-c915-484c-a169-2f9688046748" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
-    <TestEntry testId="46e1b543-2c66-dabd-b76a-0374a9903dae" executionId="7e4dc883-c348-4e58-b1dd-28093eb2f673" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
-    <TestEntry testId="3ca3c1e4-8ae2-0f9e-49fe-3f8d5e10dad4" executionId="07624bab-99a9-41f9-8249-162cfed856e8" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
-    <TestEntry testId="a46ec870-a882-e175-b73d-4da54a764466" executionId="7c354f96-27a6-431c-ad53-9b0af3a44b4a" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
-    <TestEntry testId="80b7bd27-8bec-73e1-d3fa-0c77ec12425e" executionId="23be7a1b-3d09-40af-bff5-f07ef4d21b0e" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
-    <TestEntry testId="a23becaa-8844-8152-d67e-53559c04e557" executionId="8a459ae2-68c0-49a0-90d4-2917ef3dcd0f" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
-    <TestEntry testId="1779f1ed-c5ee-385b-6688-665358a93321" executionId="1b77c738-1fb5-4e95-b760-c3d1abc11e8a" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
-    <TestEntry testId="a08c30b3-b67c-808a-b83c-32648d07de90" executionId="aade854c-caef-4e86-93ee-62fbc488d910" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
-    <TestEntry testId="e1ef4125-2652-d32f-12a7-1c14ad0e7994" executionId="97cd5990-2251-4dd1-9623-75546dfde74f" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="6d5f6542-de52-3c25-65b1-c5d75cf46226" executionId="ce9bfae2-21cf-429c-9347-4b6f00912dd8" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="e1258a44-2af4-f288-2335-cf3ebc46dab6" executionId="f9c662f5-86b4-4cbf-b98d-168d4e812cd4" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="946cac8a-2444-db1c-b2a8-30349d43a95d" executionId="cd8a3390-4a55-44b0-98a6-6ff859ebc910" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="fc11d4de-b0d1-1c1d-68fe-caef1640c414" executionId="1fa3c357-c4b0-48b1-9cde-e0a35fe68027" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="22b7b4d8-ec29-6183-842b-faa8aceeab54" executionId="363f01c3-adf5-4516-b218-3bb5fcf2d30c" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="395c816a-8bde-585a-c184-e326b6a9ab73" executionId="3ec69484-e4b9-433f-ad1d-c152fdb2c5fa" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="46e1b543-2c66-dabd-b76a-0374a9903dae" executionId="7d486b9a-885d-4453-925d-85299c3b25e8" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="47def0c6-3498-ef1e-0e9a-d4c16878107d" executionId="71ad8323-fd20-49fc-bcea-64228bfef1d4" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="627c1473-3190-fed7-4956-baa8983d7cff" executionId="fa359d9b-8b05-469a-94e8-774a762b606a" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="80b7bd27-8bec-73e1-d3fa-0c77ec12425e" executionId="99b6829c-1352-49bd-b856-713297e57960" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="63a19c50-ddb6-ead2-b1f1-403d96560d5d" executionId="e36f9459-aa25-4c2f-a0ec-2a125a80328f" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="f77d222a-3348-27d1-c187-6e3f9f0b520c" executionId="71649f40-b544-4e0e-88e4-b1a041ed6177" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="3d8dec6a-7eee-d6d7-1499-746332efeb14" executionId="bd50a7ff-1d4c-44ef-a63e-a6a56dfc65ea" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="d30c91b2-fc8f-3067-b4a5-03536a4c161c" executionId="544403a9-4ba7-45ab-b5f2-06fe496c8905" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="3b358dac-a42d-0b47-7a51-d3cc4c3a3b0d" executionId="d71cb71a-db1c-4495-abae-142f8a2ace53" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="982be789-f5fb-4b21-9a5c-727698cea1ca" executionId="f12402b9-9249-4db9-8934-b34e0212d1da" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="15e1d935-1f9d-54d1-c534-daaf22b6d97c" executionId="c715f103-61bd-4d72-8fa5-cc9c14276f30" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="f2e2bda2-ce51-4c1d-271f-71538a57d84d" executionId="3cd8ba3b-b1aa-444f-8cd0-dd41c1e2294e" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="b0462b24-a432-4aa8-673b-28fb9bcd2cd2" executionId="dbae4e88-0f42-4c02-a49e-e0fc4b6c746b" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="2c2d8b84-3f86-eb0e-1d49-87b351117c76" executionId="91a00188-7fac-4f28-b9c2-45557f2d1693" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="b3c6c7de-fdcd-64e4-0cb7-40ec699e9e54" executionId="95bd429a-6a6b-4b17-b313-93fb03027a5a" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="70f596d3-083a-01db-aabf-4ab5a6a1f62b" executionId="c870c108-0815-415d-adb6-8343b5823fc7" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="a46ec870-a882-e175-b73d-4da54a764466" executionId="2b91729f-7a68-4652-bcc1-e54a733eddae" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="fc361f04-2e77-9345-dc9a-c0ae25f353b0" executionId="a731db3c-99b6-4cae-9f57-1b36aa989d88" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="3ca3c1e4-8ae2-0f9e-49fe-3f8d5e10dad4" executionId="4a864baa-0d6d-458c-ae54-670fad26af00" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="b340dc6f-9ffc-490c-e043-bf0f3c78db88" executionId="3d721802-b9ea-4ef1-a882-f2ea4e4e2694" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="288450e0-cba2-d0b4-5940-ca946ab53c9d" executionId="a7ac5dd9-71af-4079-9968-4c1ab5a847d0" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="2c0cf768-31a7-f8a6-dd7d-dc118fb6523e" executionId="ab74698d-a198-482f-a6df-f0f91c86316c" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="227cfdb0-700a-4835-7719-513f0523ef66" executionId="aedf52d8-6e87-4b88-bd45-0fd73d978575" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="40b625bb-e8d4-1859-67f4-86f1b245359e" executionId="ada7a02d-ae28-4e9c-b6be-02c5cd629c97" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="1779f1ed-c5ee-385b-6688-665358a93321" executionId="f052f1f0-c152-48d8-b5a2-ea0ca3046ba9" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="21a33686-5f6a-6667-1f47-f4937c8e479b" executionId="c6433ac6-6e25-4d96-9b16-aef31f65c64f" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="e28f2492-0aad-6fad-7143-714e599eada8" executionId="0167c534-5fd1-451e-a013-c1419e60f35b" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="a23becaa-8844-8152-d67e-53559c04e557" executionId="8b916dda-38ee-4b5e-bcbe-5afcf09a85d3" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="52cf92fa-5962-b025-9ce0-9c62e763192b" executionId="0ddbd8d6-3f80-4fe4-8004-a8f545bda534" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="b099626a-07ed-ca16-e547-15698d940428" executionId="8b61e1a3-8239-4273-b904-4f9d4ceee992" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="6eee214f-7716-45cb-53a1-48b743f4ebf3" executionId="403c7ca0-2014-458e-b0e2-33d5d9b70098" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="a08c30b3-b67c-808a-b83c-32648d07de90" executionId="d56cff19-2a91-4267-878a-2b3d48936ff3" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
   </TestEntries>
   <TestLists>
-    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
-    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+    <TestList name="Les résultats ne figurent pas dans une liste" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="Tous les résultats chargés" id="19431567-8539-422a-85d7-44ee4e166bda" />
   </TestLists>
   <ResultSummary outcome="Failed">
-    <Counters total="38" executed="38" passed="0" failed="38" error="0" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+    <Counters total="38" executed="38" passed="19" failed="19" error="0" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
     <Output>
       <StdOut>NUnit Adapter 4.5.0.0: Test execution started&#xD;
-Running all tests in C:\01-projects\apside\git\dotnet-challenge-kata-session-01\katas.session.01\katas.session.01.test\bin\Debug\net8.0\Katas.Session.01.Test.dll&#xD;
+Running all tests in C:\Users\gvalentin\Documents\pers\tech\dotnet-challenge-kata-session-01\katas.session.01\katas.session.01.test\bin\Debug\net8.0\Katas.Session.01.Test.dll&#xD;
    NUnit3TestExecutor discovered 38 of 38 NUnit test cases using Current Discovery mode, Non-Explicit run&#xD;
 NUnit Adapter 4.5.0.0: Test execution complete&#xD;
 </StdOut>
